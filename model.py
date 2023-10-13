@@ -12,7 +12,7 @@ from transformers import (
     AutoModelForCausalLM,
     set_seed,
     Seq2SeqTrainer,
-    BitsAndBytesConf1g,
+    BitsAndBytesConfig,
     LlamaTokenizer,
     AutoModelForSequenceClassification
 )
@@ -146,6 +146,7 @@ def load_model(args, device_map, max_memory, compute_dtype):
         else:
             raise NotImplementedError("finetune type not implemented")
     model.config.torch_dtype = (torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32))
+    #model = model.to_bettertransformer()
     return model
 
 def get_accelerate_model(args, checkpoint_dir):
@@ -177,8 +178,9 @@ def get_accelerate_model(args, checkpoint_dir):
         else:
             print(f'checkpoint_dir is None. Adding LoRA modules...')
             modules = find_all_linear_names(args, model)
+            modules =["query_key_value","dense","dense_h_to_4h","dense_4h_to_h"]
             config = LoraConfig(
-                re=args.lora_r,
+                r=args.lora_r,
                 lora_alpha=args.lora_alpha,
                 target_modules=modules,
                 lora_dropout=args.lora_dropout,

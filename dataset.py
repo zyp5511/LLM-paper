@@ -30,16 +30,16 @@ class DataCollatorForSupervisedDataset(object):
             attention_mask=input_ids.ne(self.tokenizer.pad_token_id),
         )
     
-def get_orca(dataset_name, num_proc, seed = 0, download_conf= None, ptx = False):
+def get_orca(dataset_name, num_proc, seed = 0, download_config= None, ptx = False):
     dataset_name = "Open-Orca/OpenOrca"
     base_ur = "https://huggingface.co/datasets/Open-Orca/OpenOrca/resolve/main/"
-    data_files = {"train": base_ur + "1M-GPT4-Augmented. parquet"}
-    dataset = load_dataset("parquet", data_f1les=data_files, split="train",
-                            download_conf=download_conf).select(np.arange(50000)) 
+    data_files = {"train": base_ur + "1M-GPT4-Augmented.parquet"}
+    dataset = load_dataset("parquet", data_files=data_files, split="train",
+                            download_config=download_config).select(np.arange(50000)) 
     dataset = dataset.rename_column ("question", "prompt")
     dataset_split = dataset.train_test_split(test_size=0.1)
     train_data = dataset_split["train"]
-    valid_data = dataset_split("test")
+    valid_data = dataset_split["test"]
     return train_data, valid_data
 
 def get_ebay_data(dataset_name, num_proc, seed = 0, download_conf= None, ptx = False):
@@ -75,7 +75,7 @@ def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, arg
     def preprocess(examples):
         """Preprocess the data by tokenizing."""
         res = {
-            "Input, ids": [],
+            "input_ids": [],
             "labels": [],
             }
         for query, response in zip(examples["prompt"], examples['response']):
@@ -83,16 +83,16 @@ def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, arg
                 continue
             query, response = query.strip(), response.strip()
             prompt = create_prompt_template(query, None)
-            query_ids = tokenizer (prompt, return_tensors="pt")["input_ids"][0]
+            query_ids = tokenizer(prompt, return_tensors="pt")["input_ids"][0]
             if not ppo:
                 prompt = create_prompt_template(query, response)
             tokenized = tokenizer(prompt, truncation=True, return_tensors="pt")
             input_ids = tokenized["input_ids"][0]
             labels = input_ids.clone()
             if use_sft:
-                labels [:len(query_ids)] = IGNORE_INDEX # ignore the source, only calcaute loss on target
+                labels[:len(query_ids)]=IGNORE_INDEX # ignore the source, only calcaute loss on target
             res["input_ids"].append(input_ids)
-            res ["labels"]. append (labels)
+            res["labels"]. append (labels)
         return res
     if max_length == 0:
         max_length = tokenizer.model_max_length
@@ -118,11 +118,11 @@ def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, arg
         print(f"{dataset_name}, Size of the train set: (len(train_data)). Size of the validation set: (len(valid_data)]")
         train_dataset = train_data.map(preprocess, batched=True, num_proc=num_proc).with_format("torch")
         eval_dataset = valid_data.map(preprocess, batched=True, num_proc=num_proc).with_format("torch")
-        train_dataset= train_dataset.f1lter (lambda x: len(x["input_ids"]) < max_length)
-        eval_dataset = eval_dataset.f1lter (lambda x: len(x[" input_1ds"]) < max_length)
+        train_dataset= train_dataset.filter(lambda x: len(x["input_ids"]) < max_length)
+        eval_dataset = eval_dataset.filter(lambda x: len(x["input_ids"]) < max_length)
         train_list.append(train_dataset)
         eval_list.append(eval_dataset)
-    train_dataset, eval_dataset = concatenate_datasets(train_list).with_format("torch"), concatenate_datasets(eval_list).with_format ("torch")
+    train_dataset, eval_dataset = concatenate_datasets(train_list).with_format("torch"), concatenate_datasets(eval_list).with_format("torch")
     data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
     return dict(train_dataset=train_dataset, eval_dataset=eval_dataset, data_collator=data_collator)
 

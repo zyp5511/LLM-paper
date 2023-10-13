@@ -9,35 +9,31 @@ import argparse
 import torch
 import transformers
 from transformers import(
-    AutoTokenizer,
-    AutoModelForCausalLM,
     set_seed,
     Seq2SeqTrainer,
-    Trainer,
-    BitsAndBytesConfig,
-    LlamaTokenizer
+    AutoTokenizer
 )
 
 from utils_tokenizer import get_tokenizer_match_model, smart_tokenizer_and_embedding_resize
-from dataset_mix import make_supervised_data_module
+from dataset import make_supervised_data_module
 from model import get_accelerate_model, SavePeftModelCallback, safe_save_model_for_hf_trainer
 import datetime
-from transformers.integrations import TrainerCallback, is_tensorboard_available
+from transformers.integrations import is_tensorboard_available
 torch.backends.cuda.matmul.allow_tf32 = True
 import os
 from torch import distributed as dist
 from datetime import timedelta
 
-os.environ["http_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
-os.environ["https_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
-os.environ["WANDB _DISABLED"] = "true"
+# os.environ["http_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
+# os.environ["https_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
+# os.environ["WANDB _DISABLED"] = "true"
 os.environ['CURL_CA_BUNDLE'] = ''
 DEFAULT_PAD_TOKEN = "[PAD]"
 
 @dataclass
 class ModelArguments:
     model_name_or_path: Optional[str] = field(
-        default="/data/ebay-slc-a100/data/canxu/llama-2/13b",
+        default="tiiuae/falcon-7b",
         metadata={"help": "The model checkpoint for weights initialization."},
     )
     lora_all_modules: bool = field(
@@ -48,7 +44,7 @@ class ModelArguments:
 @dataclass
 class DataArguments:
     dataset_names: str = field(
-        defaut = "ebay",
+        default = "orca",
         metadata ={"help" : "Which dataset_name is used"}
     )
     train_data_fn: str = field(
@@ -76,12 +72,12 @@ class DataArguments:
     metadata={"help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."}
     )
 @dataclass
-class TrainingArguments(transformers.Seq2SeqTrainingArounents):
+class TrainingArguments(transformers.Seq2SeqTrainingArguments):
     cache_dir: Optional[str]= field(
         default = None
     )
     model_max_length: int = field(
-        default=1024,
+        default=512,
         metadata={"help": "Maximum sequence length. Sequences will be right padded (and possibly truncated). "}
         )
     #  training strategy: lora, qlora or full finetune
@@ -109,11 +105,11 @@ class TrainingArguments(transformers.Seq2SeqTrainingArounents):
     )
     # lora config ###
     lora_r: int = field(
-        default=16,
+        default=8,
         metadata={"help": "Lora R dimension."}
     )
     lora_alpha: float = field(
-        default=32,
+        default=16,
         metadata={"help": " Lora alpha."}
     )   
     lora_dropout: float = field(
@@ -121,36 +117,35 @@ class TrainingArguments(transformers.Seq2SeqTrainingArounents):
         metadata={"help": "Lora dropout."}
     )
     lora_task_type: str = field(
-        defaults="CAUSAL_LM",
+        default="CAUSAL_LM",
         metadata={"help": "Apply LoRA to all layers, qlora source code always this"},
     )
     lora_modules_to_save :Optional[List[str]] = field(
         default=None,
         metadata={"help": "Apply LoRA to all layers, qlora source code always this"},
     )
-    lora_bias: bool = field(
+    lora_bias: str = field(
         default="none",
         metadata={"help": "Apply LoRA to all layers, qlora source code always this"},
     )
 
     max_memory_MB: int = field(
-        default=80000,
+        default=24000,
         metadata={"help": "Free memory per gpu, here we use A100."}
     )
     output_dir: str = field(default='./Llama/sft', metadata={"help": 'The output dir for logs and checkpoints'})
     do_tratn: bool = field (default=True, metadata={"help": 'To train or not to train, that 1s the question?'})
     optim: str = field(default='paged_adamw_8bit', metadata={"help": 'The optimizer to be used' })
     # normal training hyperparameters
-    pre_device_train_batch_size: int = field(default=8, metadata={"help": 'The training batch size per GPU. Increase for better speed.'})
-    gradient_accumulation_steps: int = field(default=4, metadata={"help": 'The number of gradient accumulation steps. Increase for better speed.'})
- 
+    pre_device_train_batch_size: int = field(default=1, metadata={"help": 'The training batch size per GPU. Increase for better speed.'})
+    gradient_accumulation_steps: int = field(default=1, metadata={"help": 'The number of gradient accumulation steps. Increase for better speed.'})
     max_steps: int = field(default=-1, metadata={"help": 'How many optimizer update steps to take'})
     num_train_epochs: int = field(default=3, metadata={"help": 'How many epochs to take'})
     weight_decay: float = field(default=0.000, metadata={"help": 'The L2 weight decay rate of Adamw'}) # use Lora dropout instead for regularization if needed
     learning_rate: float = field(default=1e-5, metadata={"help": 'The learnign rate'})
     max_grad_norm: float = field(default=0.3, metadata={"help": 'Gradient clipping max norm. This 1s tuned and works well for all models tested.'})
     gradient_checkpointing: bool = field (default=True, metadata={"help": 'Use gradient checkpointing. You want to use this.'})
-    Ir_scheduler_type: str = field(default='cosine', metadata={"help": 'Learning rate schedule. Constant a bit better than cosine, and has advantage for analysis'})
+    lr_scheduler_type: str = field(default='cosine', metadata={"help": 'Learning rate schedule. Constant a bit better than cosine, and has advantage for analysis'})
     warmup_ratio: float = field(default=0.03, metadata={"help": 'Fraction of steps to do a warmup for!'})
     logging_steps: int = field(default=10, metadata={"help": 'The frequency of update steps after which to log the loss'})
     group_by_length: bool = field(default=True, metadata={"help": "Group sequences into batches with same length. Saves memory and speeds up training considerably."})
@@ -177,7 +172,7 @@ def train():
     set_seed(training_args.seed)
 
     ## here we can also use AutoTokenizer. from pretrained
-    tokenizer = LlamaTokenizer.from_pretrained(
+    tokenizer = AutoTokenizer.from_pretrained(
         model_args.model_name_or_path,
         cache_dir = training_args.cache_dir,
         model_max_length=training_args.model_max_length,
@@ -191,7 +186,7 @@ def train():
 
     special_tokens_dict = {}
     if not tokenizer.pad_token:
-        special_tokens_dict ["pad_token"] = DEFAULT_PAD_TOKEN
+        special_tokens_dict["pad_token"] = DEFAULT_PAD_TOKEN
     if tokenizer.pad_token_id is tokenizer.eos_token_id:
         raise Exception( 'pad_token_id should not be equal to eos_ token id')
     smart_tokenizer_and_embedding_resize(
@@ -205,7 +200,9 @@ def train():
         model=model,
         tokenizer=tokenizer,
         args=training_args,
-        *data_module
+        train_dataset=data_module["train_dataset"],
+        eval_dataset=data_module["eval_dataset"],
+        data_collator=data_module["data_collator"],
     )
     # Callbacks to save peft model
     if args.finetune_type == "lora" or args.finetune_type == "qlora":
@@ -217,9 +214,10 @@ def train():
     tokenizer.save_pretrained(os.path.join(training_args.output_dir, "save_tokenizer"))
     all_metrics = {"run name": training_args.run_name}
 
+    training_args.do_train = True
     # Training
     if training_args.do_train:
-        logging.warning(f"*** Start training with f{args.finetune_type} **k ")
+        logging.warning(f"*** Start training with {args.finetune_type} ** ")
         train_result = trainer.train()
     metrics = train_result.metrics
     trainer.log_metrics("train", metrics)

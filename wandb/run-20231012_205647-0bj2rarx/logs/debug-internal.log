@@ -1,0 +1,195 @@
+2023-10-12 20:56:47,421 INFO    StreamThr :953479 [internal.py:wandb_internal():86] W&B internal server running at pid: 953479, started at: 2023-10-12 20:56:47.420409
+2023-10-12 20:56:47,423 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: status
+2023-10-12 20:56:47,430 INFO    WriterThread:953479 [datastore.py:open_for_write():85] open: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/run-0bj2rarx.wandb
+2023-10-12 20:56:47,430 DEBUG   SenderThread:953479 [sender.py:send():380] send: header
+2023-10-12 20:56:47,558 DEBUG   SenderThread:953479 [sender.py:send():380] send: run
+2023-10-12 20:56:48,037 INFO    SenderThread:953479 [dir_watcher.py:__init__():211] watching files in: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files
+2023-10-12 20:56:48,038 INFO    SenderThread:953479 [sender.py:_start_run_threads():1122] run started: 0bj2rarx with start time 1697169407.420715
+2023-10-12 20:56:48,050 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: check_version
+2023-10-12 20:56:48,051 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: check_version
+2023-10-12 20:56:48,236 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: run_start
+2023-10-12 20:56:48,251 DEBUG   HandlerThread:953479 [system_info.py:__init__():32] System info init
+2023-10-12 20:56:48,251 DEBUG   HandlerThread:953479 [system_info.py:__init__():47] System info init done
+2023-10-12 20:56:48,251 INFO    HandlerThread:953479 [system_monitor.py:start():194] Starting system monitor
+2023-10-12 20:56:48,251 INFO    SystemMonitor:953479 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-12 20:56:48,252 INFO    HandlerThread:953479 [system_monitor.py:probe():214] Collecting system info
+2023-10-12 20:56:48,253 INFO    SystemMonitor:953479 [interfaces.py:start():190] Started cpu monitoring
+2023-10-12 20:56:48,253 INFO    SystemMonitor:953479 [interfaces.py:start():190] Started disk monitoring
+2023-10-12 20:56:48,254 INFO    SystemMonitor:953479 [interfaces.py:start():190] Started gpu monitoring
+2023-10-12 20:56:48,257 INFO    SystemMonitor:953479 [interfaces.py:start():190] Started memory monitoring
+2023-10-12 20:56:48,258 INFO    SystemMonitor:953479 [interfaces.py:start():190] Started network monitoring
+2023-10-12 20:56:48,306 DEBUG   HandlerThread:953479 [system_info.py:probe():196] Probing system
+2023-10-12 20:56:48,324 DEBUG   HandlerThread:953479 [system_info.py:_probe_git():181] Probing git
+2023-10-12 20:56:48,363 DEBUG   HandlerThread:953479 [system_info.py:_probe_git():189] Probing git done
+2023-10-12 20:56:48,364 DEBUG   HandlerThread:953479 [system_info.py:probe():244] Probing system done
+2023-10-12 20:56:48,364 DEBUG   HandlerThread:953479 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-34-generic-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-10-13T03:56:48.306485', 'startedAt': '2023-10-13T03:56:47.411041', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/media/yipeng/data/LLM-paper/train_sft_ebay.py', 'codePathLocal': 'train_sft_ebay.py', 'codePath': 'train_sft_ebay.py', 'git': {'remote': 'https://github.com/zyp5511/LLM-paper.git', 'commit': 'a1cf67670120e7a456396d88a24da14ea541c5ee'}, 'email': 'zyp5511@gmail.com', 'root': '/media/yipeng/data/LLM-paper', 'host': 'yipeng-MS-7B92', 'username': 'yipeng', 'executable': '/home/yipeng/miniconda3/envs/llm/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2255.1850781250005, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3375.009, 'min': 2200.0, 'max': 3700.0}, {'current': 1851.096, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2133.675, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1887.078, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3493.294, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3358.865, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3699.572, 'min': 2200.0, 'max': 3700.0}, {'current': 1886.439, 'min': 2200.0, 'max': 3700.0}, {'current': 1887.957, 'min': 2200.0, 'max': 3700.0}, {'current': 2195.836, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1887.633, 'min': 2200.0, 'max': 3700.0}, {'current': 2069.891, 'min': 2200.0, 'max': 3700.0}, {'current': 2199.697, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1751.787, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1852.524, 'min': 2200.0, 'max': 3700.0}, {'current': 3429.607, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1887.481, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1850.893, 'min': 2200.0, 'max': 3700.0}, {'current': 1975.981, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2967.653, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1886.615, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 1888.571, 'min': 2200.0, 'max': 3700.0}, {'current': 2199.742, 'min': 2200.0, 'max': 3700.0}, {'current': 1888.474, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2199.747, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2172.707, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 227.67739486694336, 'used': 170.5903549194336}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA TITAN RTX', 'memory_total': 25769803776}], 'memory': {'total': 125.73433685302734}}
+2023-10-12 20:56:48,364 INFO    HandlerThread:953479 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-12 20:56:48,364 INFO    HandlerThread:953479 [system_monitor.py:probe():227] Publishing system info
+2023-10-12 20:56:48,364 DEBUG   HandlerThread:953479 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-12 20:56:48,365 DEBUG   HandlerThread:953479 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-12 20:56:48,365 DEBUG   HandlerThread:953479 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-12 20:56:49,040 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_created():271] file/dir created: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/requirements.txt
+2023-10-12 20:56:49,041 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_created():271] file/dir created: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/conda-environment.yaml
+2023-10-12 20:56:51,553 DEBUG   HandlerThread:953479 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-12 20:56:51,554 INFO    HandlerThread:953479 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-12 20:56:51,558 DEBUG   SenderThread:953479 [sender.py:send():380] send: files
+2023-10-12 20:56:51,558 INFO    SenderThread:953479 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-12 20:56:51,567 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-12 20:56:51,568 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-12 20:56:51,568 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: stop_status
+2023-10-12 20:56:51,837 DEBUG   SenderThread:953479 [sender.py:send():380] send: telemetry
+2023-10-12 20:56:51,837 DEBUG   SenderThread:953479 [sender.py:send():380] send: config
+2023-10-12 20:56:51,838 DEBUG   SenderThread:953479 [sender.py:send():380] send: metric
+2023-10-12 20:56:51,839 DEBUG   SenderThread:953479 [sender.py:send():380] send: telemetry
+2023-10-12 20:56:51,839 DEBUG   SenderThread:953479 [sender.py:send():380] send: metric
+2023-10-12 20:56:51,839 WARNING SenderThread:953479 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-10-12 20:56:52,039 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/conda-environment.yaml
+2023-10-12 20:56:52,040 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_created():271] file/dir created: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/wandb-metadata.json
+2023-10-12 20:56:52,040 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_created():271] file/dir created: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log
+2023-10-12 20:56:52,107 INFO    wandb-upload_0:953479 [upload_job.py:push():131] Uploaded file /tmp/tmp5cd75h3xwandb/umxgywm1-wandb-metadata.json
+2023-10-12 20:56:52,840 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: status_report
+2023-10-12 20:56:54,040 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log
+2023-10-12 20:56:57,841 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: status_report
+2023-10-12 20:57:02,842 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: status_report
+2023-10-12 20:57:05,404 DEBUG   SenderThread:953479 [sender.py:send():380] send: exit
+2023-10-12 20:57:05,404 INFO    SenderThread:953479 [sender.py:send_exit():585] handling exit code: 1
+2023-10-12 20:57:05,405 INFO    SenderThread:953479 [sender.py:send_exit():587] handling runtime: 17
+2023-10-12 20:57:05,408 INFO    SenderThread:953479 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-12 20:57:05,408 INFO    SenderThread:953479 [sender.py:send_exit():593] send defer
+2023-10-12 20:57:05,408 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,408 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-12 20:57:05,409 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,409 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-12 20:57:05,409 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 1
+2023-10-12 20:57:05,409 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,409 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-12 20:57:05,409 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,409 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-12 20:57:05,409 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 2
+2023-10-12 20:57:05,410 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,410 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-12 20:57:05,410 INFO    HandlerThread:953479 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-12 20:57:05,410 DEBUG   SystemMonitor:953479 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-12 20:57:05,411 INFO    HandlerThread:953479 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-12 20:57:05,411 DEBUG   SystemMonitor:953479 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-12 20:57:05,411 INFO    HandlerThread:953479 [interfaces.py:finish():202] Joined disk monitor
+2023-10-12 20:57:05,412 DEBUG   SystemMonitor:953479 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-12 20:57:05,904 INFO    HandlerThread:953479 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-12 20:57:05,905 INFO    HandlerThread:953479 [interfaces.py:finish():202] Joined memory monitor
+2023-10-12 20:57:05,905 INFO    HandlerThread:953479 [interfaces.py:finish():202] Joined network monitor
+2023-10-12 20:57:05,906 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,906 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-12 20:57:05,906 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 3
+2023-10-12 20:57:05,906 DEBUG   SenderThread:953479 [sender.py:send():380] send: stats
+2023-10-12 20:57:05,906 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,907 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-12 20:57:05,907 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,908 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-12 20:57:05,908 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 4
+2023-10-12 20:57:05,908 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,908 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-12 20:57:05,908 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,908 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-12 20:57:05,908 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 5
+2023-10-12 20:57:05,908 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,908 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-12 20:57:05,909 DEBUG   SenderThread:953479 [sender.py:send():380] send: summary
+2023-10-12 20:57:05,909 INFO    SenderThread:953479 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-12 20:57:05,909 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,909 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-12 20:57:05,910 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 6
+2023-10-12 20:57:05,910 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:05,910 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-12 20:57:05,910 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:05,910 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-12 20:57:05,915 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: status_report
+2023-10-12 20:57:06,044 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log
+2023-10-12 20:57:06,045 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_created():271] file/dir created: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/wandb-summary.json
+2023-10-12 20:57:06,141 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 7
+2023-10-12 20:57:06,142 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:06,142 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-12 20:57:06,142 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:06,142 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-12 20:57:06,404 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-12 20:57:07,045 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/config.yaml
+2023-10-12 20:57:07,875 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 8
+2023-10-12 20:57:07,878 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: poll_exit
+2023-10-12 20:57:07,878 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:07,879 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-12 20:57:07,879 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:07,879 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-12 20:57:07,879 INFO    SenderThread:953479 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-12 20:57:07,881 INFO    SenderThread:953479 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-10-12 20:57:07,884 INFO    SenderThread:953479 [job_builder.py:build():369] adding wandb-job metadata file
+2023-10-12 20:57:07,897 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 9
+2023-10-12 20:57:07,898 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:07,898 DEBUG   SenderThread:953479 [sender.py:send():380] send: artifact
+2023-10-12 20:57:07,898 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-12 20:57:08,045 INFO    Thread-12 :953479 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log
+2023-10-12 20:57:08,964 INFO    wandb-upload_0:953479 [upload_job.py:push():89] Uploaded file /home/yipeng/.local/share/wandb/artifacts/staging/tmpdj9lholq
+2023-10-12 20:57:08,985 INFO    wandb-upload_1:953479 [upload_job.py:push():89] Uploaded file /home/yipeng/.local/share/wandb/artifacts/staging/tmpjt78fltp
+2023-10-12 20:57:09,878 INFO    SenderThread:953479 [sender.py:send_artifact():1456] sent artifact job-https___github.com_zyp5511_LLM-paper.git_train_sft_ebay.py - {'id': 'QXJ0aWZhY3Q6NjAzMzg4Mjk0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNjQxNjUyMA==', 'latestArtifact': None}}
+2023-10-12 20:57:09,878 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:09,878 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-12 20:57:09,878 INFO    SenderThread:953479 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-12 20:57:10,047 INFO    SenderThread:953479 [dir_watcher.py:finish():388] scan: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files
+2023-10-12 20:57:10,047 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/requirements.txt requirements.txt
+2023-10-12 20:57:10,047 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log output.log
+2023-10-12 20:57:10,047 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/wandb-summary.json wandb-summary.json
+2023-10-12 20:57:10,054 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/wandb-metadata.json wandb-metadata.json
+2023-10-12 20:57:10,055 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/config.yaml config.yaml
+2023-10-12 20:57:10,060 INFO    SenderThread:953479 [dir_watcher.py:finish():402] scan save: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/conda-environment.yaml conda-environment.yaml
+2023-10-12 20:57:10,063 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 10
+2023-10-12 20:57:10,063 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:10,064 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-12 20:57:10,067 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:10,067 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-12 20:57:10,067 INFO    SenderThread:953479 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-12 20:57:10,366 INFO    wandb-upload_0:953479 [upload_job.py:push():131] Uploaded file /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/requirements.txt
+2023-10-12 20:57:10,475 INFO    wandb-upload_1:953479 [upload_job.py:push():131] Uploaded file /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/output.log
+2023-10-12 20:57:10,568 INFO    wandb-upload_2:953479 [upload_job.py:push():131] Uploaded file /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/wandb-summary.json
+2023-10-12 20:57:10,626 INFO    wandb-upload_4:953479 [upload_job.py:push():131] Uploaded file /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/conda-environment.yaml
+2023-10-12 20:57:10,643 INFO    wandb-upload_3:953479 [upload_job.py:push():131] Uploaded file /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/files/config.yaml
+2023-10-12 20:57:10,843 INFO    Thread-11 :953479 [sender.py:transition_state():613] send defer: 11
+2023-10-12 20:57:10,844 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:10,844 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-12 20:57:10,845 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:10,845 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-12 20:57:10,845 INFO    SenderThread:953479 [file_pusher.py:join():181] waiting for file pusher
+2023-10-12 20:57:10,845 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 12
+2023-10-12 20:57:10,845 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:10,845 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-12 20:57:10,846 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:10,846 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-12 20:57:10,846 INFO    SenderThread:953479 [file_stream.py:finish():595] file stream finish called
+2023-10-12 20:57:11,148 INFO    SenderThread:953479 [file_stream.py:finish():599] file stream finish is done
+2023-10-12 20:57:11,148 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 13
+2023-10-12 20:57:11,149 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:11,149 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-12 20:57:11,149 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:11,149 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-12 20:57:11,149 INFO    SenderThread:953479 [sender.py:transition_state():613] send defer: 14
+2023-10-12 20:57:11,150 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: defer
+2023-10-12 20:57:11,150 INFO    HandlerThread:953479 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-12 20:57:11,150 DEBUG   SenderThread:953479 [sender.py:send():380] send: final
+2023-10-12 20:57:11,150 DEBUG   SenderThread:953479 [sender.py:send():380] send: footer
+2023-10-12 20:57:11,150 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: defer
+2023-10-12 20:57:11,151 INFO    SenderThread:953479 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-12 20:57:11,151 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-12 20:57:11,152 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: server_info
+2023-10-12 20:57:11,152 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: poll_exit
+2023-10-12 20:57:11,153 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: server_info
+2023-10-12 20:57:11,156 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-12 20:57:11,156 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-12 20:57:11,157 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-12 20:57:11,157 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: job_info
+2023-10-12 20:57:11,243 DEBUG   SenderThread:953479 [sender.py:send_request():407] send_request: job_info
+2023-10-12 20:57:11,244 INFO    MainThread:953479 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-12 20:57:11,244 INFO    MainThread:953479 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-12 20:57:11,244 INFO    MainThread:953479 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-12 20:57:11,245 DEBUG   HandlerThread:953479 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-12 20:57:11,245 INFO    HandlerThread:953479 [handler.py:finish():866] shutting down handler
+2023-10-12 20:57:12,158 INFO    WriterThread:953479 [datastore.py:close():294] close: /media/yipeng/data/LLM-paper/wandb/run-20231012_205647-0bj2rarx/run-0bj2rarx.wandb
+2023-10-12 20:57:12,244 INFO    SenderThread:953479 [sender.py:finish():1534] shutting down sender
+2023-10-12 20:57:12,244 INFO    SenderThread:953479 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-12 20:57:12,244 INFO    SenderThread:953479 [file_pusher.py:join():181] waiting for file pusher
