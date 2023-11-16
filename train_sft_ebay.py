@@ -24,9 +24,8 @@ import os
 from torch import distributed as dist
 from datetime import timedelta
 
-# os.environ["WANDB _DISABLED"] = "true"
-os.environ['CURL_CA_BUNDLE'] = ''
-DEFAULT_PAD_TOKEN = "[PAD]"
+os.environ["WANDB _DISABLED"] = "true"
+# os.environ['CURL_CA_BUNDLE'] = ''
 
 @dataclass
 class ModelArguments:
