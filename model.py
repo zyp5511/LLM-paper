@@ -23,8 +23,8 @@ from peft import (
     PeftModel
 )
 from peft.tuners.lora import LoraLayer
-from transformers. trainer_utils import PREFIX_CHECKPOINT_DIR
-#from tr import AutoModelForCausalLMWithValueHead
+from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
+
 torch.backends.cuda.matmul.allow_tf32 = True
 logger = logging.getLogger(__name__)
 
@@ -48,25 +48,25 @@ class SavePeftModelCallback(transformers.TrainerCallback):
         if state.best_model_checkpoint is not None:
             checkpoint_folder = os.path.join(state.best_model_checkpoint, "adapter_model")
         else:
-            checkpoint_folder = os.path.join(args.output_dir, f"(PREFIX_CHECKPOINT _DIR)-(state.global_step)")
-        peft_model_path = os. path. join(checkpoint_folder, "adapter_model")
+            checkpoint_folder = os.path.join(args.output_dir, f"{PREFIX_CHECKPOINT _DIR}-{state.global_step}")
+        
+        peft_model_path = os.path.join(checkpoint_folder, "adapter_model")
         kwargs["model"].save_pretrained(peft_model_path)
-        pytorch_model_path=os.path.join(checkpoint_folder, "pytorch_model.bin")
+        
+        pytorch_model_path = os.path.join(checkpoint_folder, "pytorch_model.bin")
         if os.path.exists(pytorch_model_path):
             os.remove(pytorch_model_path)
+    
     def on_save(self, args, state, control, kwargs):
         if not control.should_save:
             return
         self.save_model(args, state, kwargs)
         return control
-    def on_train_begin(self, args: TrainingArguments, state: TrainerState, control: TrainerControl, **kwargs):
-        return super().on_train_begin(args, state, control, **kwargs)
     
     def on_train_end(self, args: TrainingArguments, state: TrainerState, control: TrainerControl, **kwargs):
         def touch(path, times=None):
             with open(path, "a"):
                 os.utime(path, times)
-
         touch(os.path.join(args.output_dir, "completed"))
         self.save_model(args, state, kwargs)
     
@@ -146,7 +146,6 @@ def load_model(args, device_map, max_memory, compute_dtype):
         else:
             raise NotImplementedError("finetune type not implemented")
     model.config.torch_dtype = (torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32))
-    #model = model.to_bettertransformer()
     return model
 
 def get_accelerate_model(args, checkpoint_dir):
@@ -178,7 +177,6 @@ def get_accelerate_model(args, checkpoint_dir):
         else:
             print(f'checkpoint_dir is None. Adding LoRA modules...')
             modules = find_all_linear_names(args, model)
-            modules =["query_key_value","dense","dense_h_to_4h","dense_4h_to_h"]
             config = LoraConfig(
                 r=args.lora_r,
                 lora_alpha=args.lora_alpha,
@@ -199,14 +197,4 @@ def get_accelerate_model(args, checkpoint_dir):
                 if args.bf16:
                     raise ValueError('Your GPU does not support bfloat16')
     
-    for name, module in model.named_modules():
-        if isinstance(module, LoraLayer):
-            if args.bf16:
-                module = module.to(dtype=torch.bfloat16)
-        if 'norm' in name:
-            module = module.to(dtype=torch.float32)
-        if 'lm_head' in name or 'embed_tokens' in name:
-            if hasattr(module, 'weight'):
-                if args.bf16 and module.weight.dtype == torch.float32:
-                    module.weight = module.weight.to(dtype=torch.bfloat16)
     return model, device_map

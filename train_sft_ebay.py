@@ -24,8 +24,6 @@ import os
 from torch import distributed as dist
 from datetime import timedelta
 
-# os.environ["http_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
-# os.environ["https_proxy"] = "http://httpproxy-tcop.vip.ebay.com:80"
 # os.environ["WANDB _DISABLED"] = "true"
 os.environ['CURL_CA_BUNDLE'] = ''
 DEFAULT_PAD_TOKEN = "[PAD]"
@@ -47,14 +45,6 @@ class DataArguments:
         default = "orca",
         metadata ={"help" : "Which dataset_name is used"}
     )
-    train_data_fn: str = field(
-        default = "/data/ebay-sic-a100/data/yipezhang/seqseq-refomulation-us-r2/train_complete.tsv",
-        metadata={"help": "fn of the training data, it only support pandas supported fn"}
-    )
-    eval_data_fn: str = field(
-        default="/data/ebay-slc-a100/data/yipezhang/seq2seq-refomulation-us-r2/test_complete.tsv",
-        metadata={"help": "fn of the eval data, it only support pandas supported fn"}
-    )
     train_subset: Optional[int] = field(
         default=100000,
         metadata={"help": "The size of the subset of the training data to use"}
@@ -71,6 +61,8 @@ class DataArguments:
     default=48,
     metadata={"help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."}
     )
+    
+
 @dataclass
 class TrainingArguments(transformers.Seq2SeqTrainingArguments):
     cache_dir: Optional[str]= field(
@@ -137,7 +129,8 @@ class TrainingArguments(transformers.Seq2SeqTrainingArguments):
     do_tratn: bool = field (default=True, metadata={"help": 'To train or not to train, that 1s the question?'})
     optim: str = field(default='paged_adamw_8bit', metadata={"help": 'The optimizer to be used' })
     # normal training hyperparameters
-    pre_device_train_batch_size: int = field(default=1, metadata={"help": 'The training batch size per GPU. Increase for better speed.'})
+    per_device_train_batch_size: int = field(default=8, metadata={"help": 'The training batch size per GPU. Increase for better speed.'})
+    per_device_eval_batch_size: int = field(default=16, metadata={"help": 'The evaluation batch size per GPU. Increase for better speed.'})
     gradient_accumulation_steps: int = field(default=1, metadata={"help": 'The number of gradient accumulation steps. Increase for better speed.'})
     max_steps: int = field(default=-1, metadata={"help": 'How many optimizer update steps to take'})
     num_train_epochs: int = field(default=3, metadata={"help": 'How many epochs to take'})
@@ -151,7 +144,7 @@ class TrainingArguments(transformers.Seq2SeqTrainingArguments):
     group_by_length: bool = field(default=True, metadata={"help": "Group sequences into batches with same length. Saves memory and speeds up training considerably."})
     save_strategy: str = field(default='steps', metadata={"help": 'When to save checkpoints'})
     save_steps: int = field(default=200, metadata={"help": 'How often to save a model'})
-    #save_total_limit: int = field(default=40, metadata={"help": 'How many checkpoints to save before the oldest is overwritten'))
+    save_total_limit: int = field(default=40, metadata={"help": 'How many checkpoints to save before the oldest is overwritten'})
     log_with: Optional[str] = field(default="tensorboard", metadata={"help": "use 'tensorboard' to log with tensorboard"})
     logging_dir: Optional[str] = field(default="./logs/sft", metadata={"help": "where to output the log"})
     eval_steps: int = field(default=200, metadata={"help": 'eval_step'})
@@ -194,7 +187,12 @@ def train():
         tokenizer=tokenizer,
         model=model,
     )
-
+    
+    # save all arguments
+    with open(os.path.join(training_args.output_dir, "params.txt"), "w") as fout:
+        for key, value in vars(args).items():
+            fout.write('%s: %s\n' % (key, value))
+    
     #model = torch. compile (model)
     trainer = Seq2SeqTrainer(
         model=model,
@@ -207,8 +205,8 @@ def train():
     # Callbacks to save peft model
     if args.finetune_type == "lora" or args.finetune_type == "qlora":
         trainer.add_callback(SavePeftModelCallback)
-    os.makedirs(training_args.output_dir, exist_ok = True)
-    os.makedirs(training_args.logging_dir, exist_ok = True)
+    os.makedirs(training_args.output_dir, exist_ok=True)
+    os.makedirs(training_args.logging_dir, exist_ok=True)
 
     # Save the updated tokenizer, including tokenizer.json, special_tokens_map.json, tokenizer_config.json
     tokenizer.save_pretrained(os.path.join(training_args.output_dir, "save_tokenizer"))
@@ -229,10 +227,6 @@ def train():
     if training_args.do_train:
         with open(os.path.join(training_args.output_dir, "metrics.json"), "w") as fout:
             fout.write(json.dumps(all_metrics))
-    # save all arguments
-    with open(os.path.join(training_args.output_dir, "params.txt"), "W") as fout:
-        for key, value in vars(args).items():
-            fout.write('%s: %s\n' % (key, value))
 
 
 if __name__ == "__main__":
