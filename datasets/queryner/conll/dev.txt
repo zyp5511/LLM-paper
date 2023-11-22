@@ -1,0 +1,3995 @@
+patrick	B-content
+shorts	B-core_product_type
+men	B-department
+
+shorts	B-core_product_type
+high	B-shape
+waisted	I-shape
+
+organic	B-modifier
+baby	B-department
+clothes	B-core_product_type
+
+gillette	B-creator
+gel	B-core_product_type
+shaving	I-core_product_type
+cream	I-core_product_type
+
+raw	B-creator
+rolling	B-core_product_type
+papers	I-core_product_type
+with	B-modifier
+tips	I-modifier
+
+gt	B-creator
+performer	B-modifier
+biycicleparts	B-core_product_type
+
+dr	B-content
+brad	I-content
+has	I-content
+gone	I-content
+mad	I-content
+
+24x36	B-UoM
+deer	B-content
+outdoor	B-core_product_type
+mat	I-core_product_type
+
+small	B-UoM
+folding	B-modifier
+desks	B-core_product_type
+for	B-modifier
+small	I-modifier
+spaces	I-modifier
+
+dump	B-content
+trump	I-content
+hat	B-core_product_type
+
+cakes	B-core_product_type
+elegant	B-modifier
+
+sliding	B-core_product_type
+fifth	I-core_product_type
+wheel	I-core_product_type
+hitch	I-core_product_type
+kit	I-core_product_type
+
+dark	B-material
+chocolate	I-material
+candy	B-core_product_type
+
+sperry	B-creator
+flip	B-core_product_type
+flops	I-core_product_type
+
+men's	B-department
+shaving	B-core_product_type
+
+3x3	B-UoM
+post	B-creator
+it	I-creator
+notes	B-core_product_type
+
+volcom	B-creator
+bathing	B-core_product_type
+suit	I-core_product_type
+kids	B-department
+
+aroma	B-creator
+6	B-UoM
+cup	I-UoM
+rice	B-core_product_type
+cooker	I-core_product_type
+
+phosphate	B-modifier
+pool	B-core_product_type
+test	I-core_product_type
+kit	I-core_product_type
+
+ring	B-core_product_type
+light	I-core_product_type
+for	O
+iphone	B-product_name
+
+denim	B-material
+scrub	B-core_product_type
+sets	I-core_product_type
+
+happy	B-occasion
+50th	I-occasion
+birthday	I-occasion
+decorations	B-core_product_type
+
+duster	B-core_product_type
+with	B-modifier
+extension	I-modifier
+pole	I-modifier
+
+goodnfun	B-creator
+dog	B-core_product_type
+treats	I-core_product_type
+
+1/2	B-UoM
+drive	B-core_product_type
+impact	I-core_product_type
+21	B-UoM
+mm	I-UoM
+
+frank	B-creator
+damazio	I-creator
+
+sold	B-product_name
+on	I-product_name
+a	I-product_name
+monday	I-product_name
+
+jaybird	B-creator
+bluetooth	B-core_product_type
+wireless	B-modifier
+true	I-modifier
+view	I-modifier
+
+backpack	B-core_product_type
+for	B-department
+girls	I-department
+lunchbox	B-modifier
+
+breastfeeding	B-occasion
+night	B-core_product_type
+light	I-core_product_type
+
+camellias	B-creator
+waist	B-core_product_type
+trainer	I-core_product_type
+
+fitted	B-shape
+baseball	B-core_product_type
+caps	I-core_product_type
+for	B-department
+men	I-department
+
+step	B-creator
+2	I-creator
+climber	B-core_product_type
+
+precision	B-modifier
+turntable	B-core_product_type
+bearing	I-core_product_type
+
+jewelry	B-core_product_type
+bags	I-core_product_type
+5x7	B-UoM
+inch	I-UoM
+
+iphone	B-product_name
+xs	I-product_name
+max	I-product_name
+screen	B-core_product_type
+protector	I-core_product_type
+
+mickey	B-content
+mouse	I-content
+flannel	B-material
+fabric	I-material
+
+dyson	B-creator
+vacuum	B-core_product_type
+cleaner	I-core_product_type
+
+waterproof	B-modifier
+hunting	B-core_product_type
+coveralls	I-core_product_type
+
+pocari	B-product_name
+sweat	I-product_name
+
+cinnamon	B-core_product_type
+candy	I-core_product_type
+balls	I-core_product_type
+soft	B-modifier
+
+metguard	B-product_name
+boots	B-core_product_type
+for	B-department
+men	I-department
+
+skin	B-core_product_type
+lightening	I-core_product_type
+cream	I-core_product_type
+
+distilling	B-modifier
+supplies	B-core_product_type
+
+rust	B-core_product_type
+remover	I-core_product_type
+for	B-modifier
+stainless	I-modifier
+steel	I-modifier
+
+chameleon	B-modifier
+substrate	B-core_product_type
+
+yellow	B-content
+wood	I-content
+stray	B-creator
+kids	I-creator
+album	B-core_product_type
+
+cooking	B-core_product_type
+pot	I-core_product_type
+
+manwan	B-creator
+walk	I-creator
+shirts	B-core_product_type
+
+5t	B-creator
+winter	B-occasion
+dresses	B-core_product_type
+
+white	B-color
+tights	B-core_product_type
+for	B-department
+women	I-department
+
+bella	B-creator
+taylor	I-creator
+luna	B-product_name
+cash	I-product_name
+system	I-product_name
+wallet	B-core_product_type
+
+10	O
+men	B-department
+sexy	B-content
+lingerie	B-core_product_type
+without	B-condition
+leg	I-condition
+
+rv	B-modifier
+gray	B-color
+tank	B-core_product_type
+rod	I-core_product_type
+
+ultalife	B-creator
+blood	B-core_product_type
+pressure	I-core_product_type
+
+queen	B-creator
+ann	I-creator
+chocolate	B-core_product_type
+covered	I-core_product_type
+cherries	I-core_product_type
+
+women	B-department
+dresses	B-core_product_type
+for	B-modifier
+church	I-modifier
+
+christmas	B-occasion
+gift	B-core_product_type
+for	B-department
+husband	I-department
+
+paper	B-material
+backdrops	B-core_product_type
+for	B-occasion
+photography	I-occasion
+
+car	B-modifier
+phone	B-core_product_type
+holder	I-core_product_type
+note	B-product_name
+9	I-product_name
+
+butcher	B-modifier
+block	I-modifier
+table	B-core_product_type
+
+promenade	B-shape
+tops	B-core_product_type
+
+photo	B-core_product_type
+storage	I-core_product_type
+
+28	B-UoM
+oz	I-UoM
+tent	B-core_product_type
+
+book	B-content
+whisperer	I-content
+
+gaming	B-core_product_type
+laptops	I-core_product_type
+with	B-modifier
+rgb	I-modifier
+
+sharpie	B-creator
+oil	B-material
+based	I-material
+
+leaf	B-core_product_type
+mulcher	I-core_product_type
+
+womens	B-department
+black	B-color
+under	B-creator
+armour	I-creator
+zip	B-core_product_type
+
+aloe	B-material
+vera	I-material
+gel	B-core_product_type
+
+fashion	B-modifier
+style	I-modifier
+transparent	B-color
+mouth	B-core_product_type
+and	I-core_product_type
+eye	I-core_product_type
+mask	I-core_product_type
+
+women	B-department
+blue	B-modifier
+light	I-modifier
+blocking	I-modifier
+glasses	B-core_product_type
+
+comfy	B-modifier
+beanie	B-core_product_type
+
+portable	B-core_product_type
+infrared	I-core_product_type
+heaters	I-core_product_type
+for	B-modifier
+the	I-modifier
+home	I-modifier
+
+15x70	B-UoM
+binoculars	B-core_product_type
+
+star	B-content
+wars	I-content
+destiny	I-content
+starter	I-content
+set	B-core_product_type
+
+hanes	B-creator
+boxer	B-core_product_type
+briefs	B-modifier
+button	I-modifier
+fly	I-modifier
+
+the	B-content
+anxiety	I-content
+journal	I-content
+
+silverstone	B-creator
+pp08	B-product_name
+adapter	B-core_product_type
+
+led	B-modifier
+candy	B-shape
+cane	I-shape
+pathway	B-core_product_type
+lights	I-core_product_type
+
+flylow	B-creator
+jacket	B-core_product_type
+
+drill	B-core_product_type
+bag	I-core_product_type
+
+beef	B-core_product_type
+collagen	I-core_product_type
+powder	I-core_product_type
+
+stockings	B-core_product_type
+xmas	B-occasion
+
+preschool	B-modifier
+workbook	B-core_product_type
+
+backseat	B-modifier
+car	B-core_product_type
+organizer	I-core_product_type
+
+usb	B-core_product_type
+128	B-UoM
+
+pink	B-color
+stemware	O
+glasses	B-core_product_type
+
+labor	O
+socks	B-core_product_type
+
+baby	B-department
+bath	B-core_product_type
+tubs	I-core_product_type
+for	B-department
+infants	I-department
+
+oakley	B-creator
+path	B-product_name
+replacement	B-core_product_type
+lens	I-core_product_type
+
+harmony	B-creator
+kardon	I-creator
+powered	B-modifier
+speakers	B-core_product_type
+
+green	B-color
+rustoleum	B-creator
+spray	B-core_product_type
+paint	I-core_product_type
+
+dell	B-creator
+g7	B-product_name
+17	I-product_name
+
+julia	B-content
+misbehaves	I-content
+
+black	B-color
+gloves	B-core_product_type
+
+sheep	B-shape
+cookie	B-core_product_type
+
+edifier	B-creator
+speakers	B-core_product_type
+
+mini	B-shape
+power	B-core_product_type
+washer	I-core_product_type
+
+cntice	B-core_product_type
+nipper	I-core_product_type
+
+cherokee	B-creator
+workwear	B-product_name
+revolution	I-product_name
+scrubs	I-product_name
+women	B-department
+
+google	B-creator
+computers	B-core_product_type
+devices	I-core_product_type
+
+full	B-UoM
+size	I-UoM
+flannel	B-material
+sheets	B-core_product_type
+set	I-core_product_type
+
+glasses	B-core_product_type
+chain	I-core_product_type
+with	B-shape
+clips	I-shape
+
+hurling	B-core_product_type
+stick	I-core_product_type
+
+white	B-color
+swim	B-core_product_type
+caps	I-core_product_type
+kids	B-department
+
+smart	B-product_name
+watch	I-product_name
+sport	B-modifier
+waterproof	I-modifier
+
+rectangular	B-shape
+basket	B-core_product_type
+with	B-modifier
+lid	I-modifier
+11	B-UoM
+inches	I-UoM
+wide	B-modifier
+
+drywall	B-core_product_type
+screwdriver	I-core_product_type
+
+microphone	B-core_product_type
+stand	I-core_product_type
+boom	I-core_product_type
+round	B-shape
+base	I-shape
+
+sanrio	B-content
+shirt	B-core_product_type
+
+barrister	B-modifier
+bookcase	B-core_product_type
+
+aveeno	B-creator
+lotion	B-core_product_type
+daily	B-product_name
+moisturizing	I-product_name
+
+clearance	B-price
+hinged	B-core_product_type
+christmas	I-core_product_type
+tree	I-core_product_type
+
+husquarvana	B-creator
+snowblower	B-core_product_type
+feet	I-core_product_type
+
+desk	B-core_product_type
+for	B-modifier
+two	I-modifier
+people	I-modifier
+
+spiraler	B-core_product_type
+for	B-modifier
+veggies	I-modifier
+
+android	B-modifier
+grip	B-core_product_type
+
+weightless	B-core_product_type
+tea	I-core_product_type
+for	B-department
+women	I-department
+
+lang	B-creator
+jigsaw	B-core_product_type
+puzzles	I-core_product_type
+500	B-quantity
+pieces	I-quantity
+for	B-department
+adults	I-department
+
+girls	B-department
+high	B-core_product_type
+heels	I-core_product_type
+size	B-UoM
+1	I-UoM
+
+kelty	B-creator
+redwing	B-product_name
+40	I-product_name
+
+halloween	B-occasion
+spider	B-color
+leggings	B-core_product_type
+
+teal	B-color
+bowl	B-core_product_type
+
+bridal	B-occasion
+hair	B-core_product_type
+clip	I-core_product_type
+
+bunk	B-core_product_type
+beds	I-core_product_type
+twin	B-modifier
+over	I-modifier
+twin	I-modifier
+
+kids	B-department
+vans	B-creator
+size	B-UoM
+4	I-UoM
+
+kate	B-core_product_type
+mack	I-core_product_type
+girls	B-department
+16	B-UoM
+
+ring	B-core_product_type
+guard	I-core_product_type
+gold	B-material
+
+scrapbook	B-core_product_type
+paper	B-material
+pink	B-color
+
+straight	B-shape
+razor	B-core_product_type
+blades	I-core_product_type
+double	B-modifier
+edge	I-modifier
+
+womens	B-department
+belt	B-core_product_type
+without	B-modifier
+buckle	I-modifier
+
+star	B-content
+wars	I-content
+pencil	B-core_product_type
+case	I-core_product_type
+
+womens	B-department
+sweatshirts	B-core_product_type
+without	B-shape
+hoods	I-shape
+
+alesis	B-creator
+midi	B-product_name
+
+sexy	B-modifier
+plus	B-UoM
+size	I-UoM
+lingerie	B-core_product_type
+
+catchers	B-core_product_type
+wrist	I-core_product_type
+guard	I-core_product_type
+
+hand	B-modifier
+vacuum	I-modifier
+pump	B-core_product_type
+
+heater	B-core_product_type
+air	I-core_product_type
+conditioner	I-core_product_type
+combo	I-core_product_type
+
+dodge	B-modifier
+challenger	I-modifier
+car	B-core_product_type
+accessories	I-core_product_type
+
+bookbag	B-core_product_type
+with	B-modifier
+wheels	I-modifier
+
+1lb	B-UoM
+dumbbells	B-core_product_type
+
+white	B-creator
+castle	I-creator
+merchandise	B-core_product_type
+
+running	B-occasion
+ahort	B-core_product_type
+
+lip	B-core_product_type
+gloss	I-core_product_type
+clear	B-color
+coconut	B-material
+oil	I-material
+
+prostate	B-modifier
+massagger	B-core_product_type
+for	B-department
+men	I-department
+
+mini	B-shape
+drone	B-core_product_type
+quad	B-product_name
+
+combat	B-content
+instructor	I-content
+patches	B-core_product_type
+
+silka	B-creator
+papaya	B-core_product_type
+soap	I-core_product_type
+
+iowhey	B-product_name
+100%	B-product_name
+whey	I-product_name
+isolate	B-core_product_type
+protein	I-core_product_type
+
+casino	B-content
+royale	I-content
+prime	B-creator
+
+ravens	B-content
+license	B-core_product_type
+plate	I-core_product_type
+
+celebrity	B-modifier
+cookbooks	B-core_product_type
+
+protective	B-modifier
+pet	B-core_product_type
+collar	I-core_product_type
+
+first	B-modifier
+second	I-modifier
+third	I-modifier
+place	I-modifier
+ribbons	B-core_product_type
+
+scuf	B-product_name
+vantage	I-product_name
+controllers	B-core_product_type
+for	O
+ps4	B-product_name
+
+zen	B-creator
+dry	B-core_product_type
+brush	I-core_product_type
+
+radar	B-modifier
+speed	B-core_product_type
+signs	I-core_product_type
+
+overstuffed	B-modifier
+couch	B-core_product_type
+
+iphone	B-product_name
+11	I-product_name
+silicone	B-material
+cases	B-core_product_type
+
+octo	B-content
+link	I-content
+amiibo	B-product_name
+
+hair	B-core_product_type
+topper	I-core_product_type
+
+tool	B-core_product_type
+chest	I-core_product_type
+combo	I-core_product_type
+
+swiss	B-creator
+army	I-creator
+watches	B-core_product_type
+for	B-department
+men	I-department
+
+dead	B-content
+like	I-content
+me	I-content
+
+snare	B-core_product_type
+stand	I-core_product_type
+
+school	B-modifier
+counselor	I-modifier
+shirts	B-core_product_type
+for	B-department
+women	I-department
+
+sparklers	B-modifier
+candles	B-core_product_type
+for	B-modifier
+cake	I-modifier
+
+the	B-content
+10	I-content
+commandments	I-content
+
+d	B-shape
+ring	I-shape
+belts	B-core_product_type
+for	B-department
+men	I-department
+
+plastic	B-material
+babies	B-core_product_type
+
+dark	B-color
+purple	I-color
+boutonniere	B-core_product_type
+
+vacally	B-modifier
+ballroom	I-modifier
+dress	B-core_product_type
+
+arcade	B-core_product_type
+cabinet	I-core_product_type
+
+victoria	B-creator
+secret	I-creator
+pink	B-product_name
+perfume	B-core_product_type
+
+wooden	B-material
+planes	B-core_product_type
+
+high	B-core_product_type
+waisted	I-core_product_type
+baggy	I-core_product_type
+jeans	I-core_product_type
+
+extra	B-UoM
+large	I-UoM
+christmas	B-occasion
+welcome	B-core_product_type
+mat	I-core_product_type
+
+used	B-condition
+golf	B-core_product_type
+balls	I-core_product_type
+in	B-quantity
+bulk	I-quantity
+cheap	B-price
+
+superman	B-content
+shirts	B-core_product_type
+for	B-department
+men	I-department
+
+paper	B-material
+towel	B-core_product_type
+
+hunting	B-occasion
+fanny	B-core_product_type
+packs	I-core_product_type
+for	B-department
+men	I-department
+
+reusable	B-modifier
+boba	B-core_product_type
+straw	I-core_product_type
+
+guitar	B-core_product_type
+strings	I-core_product_type
+
+carpet	B-core_product_type
+deodorizer	B-modifier
+
+suction	B-modifier
+vibrarter	B-core_product_type
+for	B-department
+women	I-department
+
+cookie	B-content
+monster	I-content
+custome	B-core_product_type
+
+shock	B-core_product_type
+absorber	I-core_product_type
+
+fuel	B-core_product_type
+pump	I-core_product_type
+
+cute	B-modifier
+slides	B-core_product_type
+
+dyson	B-creator
+heating	B-modifier
+and	I-modifier
+cooling	I-modifier
+fan	B-core_product_type
+
+raclette	B-core_product_type
+round	B-shape
+
+hay	B-core_product_type
+trough	I-core_product_type
+horse	I-core_product_type
+
+puzzles	B-core_product_type
+for	B-department
+4	I-department
+to	I-department
+8	I-department
+
+star	B-content
+wars	I-content
+jedi	I-content
+fallen	I-content
+order	I-content
+xbox	B-product_name
+one	I-product_name
+
+meyer	B-creator
+joyce	I-creator
+
+blue	B-color
+print	I-color
+case	B-core_product_type
+
+kelly	B-creator
+willis	I-creator
+bruce	B-creator
+robison	I-creator
+our	B-content
+year	I-content
+
+pet	B-core_product_type
+mat	I-core_product_type
+
+mirror	B-core_product_type
+bathroom	B-modifier
+shower	I-modifier
+
+next	B-creator
+level	I-creator
+tanks	B-core_product_type
+
+organic	B-modifier
+cleaning	B-core_product_type
+for	I-core_product_type
+tile	I-core_product_type
+
+pink	B-color
+white	B-color
+and	O
+gold	B-color
+balloons	B-core_product_type
+
+vase	B-core_product_type
+fillers	I-core_product_type
+
+copper	B-material
+chef	B-modifier
+frying	B-core_product_type
+pan	I-core_product_type
+
+easy	O
+vegan	B-core_product_type
+cookbooks	I-core_product_type
+for	B-modifier
+beginners	I-modifier
+
+rolling	B-core_product_type
+tray	I-core_product_type
+bundle	I-core_product_type
+
+post	B-core_product_type
+card	I-core_product_type
+
+actron	B-creator
+auto	B-modifier
+scanner	B-core_product_type
+
+pet	B-modifier
+potty	B-core_product_type
+grass	I-core_product_type
+mat	I-core_product_type
+
+panacure	B-core_product_type
+c	I-core_product_type
+for	B-modifier
+dogs	I-modifier
+
+serenity	B-content
+matthew	B-content
+mcconaughey	I-content
+movie	B-core_product_type
+
+essie	B-creator
+red	B-color
+nail	B-core_product_type
+polish	I-core_product_type
+
+thunderbolt	B-modifier
+3	I-modifier
+to	I-modifier
+dual	I-modifier
+hdmi	I-modifier
+2.0	I-modifier
+adapter	B-core_product_type
+
+bushnell	B-creator
+match	B-product_name
+pro	I-product_name
+rifle	B-core_product_type
+scope	I-core_product_type
+
+42	B-content
+is	I-content
+not	I-content
+just	I-content
+a	I-content
+number	I-content
+
+magnets	B-core_product_type
+toys	I-core_product_type
+for	B-department
+kids	I-department
+
+aluminum	B-material
+welding	B-core_product_type
+rods	I-core_product_type
+for	B-modifier
+propane	I-modifier
+
+skin	B-core_product_type
+toner	I-core_product_type
+dark	B-modifier
+skin	I-modifier
+
+oxford	B-creator
+handbook	B-content
+of	I-content
+infectious	I-content
+diseases	I-content
+and	I-content
+microbiology	I-content
+
+1/2	B-UoM
+irrigation	B-core_product_type
+tubing	I-core_product_type
+without	B-condition
+holes	I-condition
+
+zircon	B-creator
+stud	B-core_product_type
+finder	I-core_product_type
+
+y.s	B-creator
+park	I-creator
+combs	B-core_product_type
+
+mattress	B-core_product_type
+set	I-core_product_type
+
+stop	B-content
+staring	I-content
+at	I-content
+my	I-content
+cock	I-content
+shorts	B-core_product_type
+
+johnny	B-content
+cash	I-content
+shirt	B-core_product_type
+women	B-department
+
+artist	B-modifier
+paint	B-occasion
+sable	B-material
+brushes	B-core_product_type
+
+i'm	B-content
+a	I-content
+simple	I-content
+woman	I-content
+t	B-core_product_type
+shirt	I-core_product_type
+
+litman	B-creator
+cardiolgy	B-core_product_type
+6	B-product_name
+
+modern	B-time
+dresser	B-core_product_type
+
+fall	B-occasion
+maxi	B-shape
+dress	B-core_product_type
+
+are	B-content
+we	I-content
+not	I-content
+cats	I-content
+
+diversion	B-core_product_type
+safes	I-core_product_type
+and	B-modifier
+containers	I-modifier
+
+thoughts	B-content
+are	I-content
+not	I-content
+the	I-content
+enemy	I-content
+
+blue	B-color
+lollipops	B-core_product_type
+
+wedding	B-modifier
+dress	I-modifier
+hanger	B-core_product_type
+
+xrite	B-creator
+i1display	B-product_name
+
+unisex	B-modifier
+baby	B-department
+clothes	B-core_product_type
+
+pineapple	B-color
+mens	B-department
+swim	B-core_product_type
+trunks	I-core_product_type
+
+computer	B-modifier
+cases	B-core_product_type
+
+1/2	B-UoM
+pint	I-UoM
+double	B-modifier
+wall	B-core_product_type
+containers	I-core_product_type
+without	B-condition
+lids	I-condition
+
+radio	B-core_product_type
+bluetooth	B-modifier
+transmitter	I-modifier
+for	I-modifier
+car	I-modifier
+
+seiko	B-creator
+self	B-modifier
+winding	I-modifier
+watches	B-core_product_type
+for	B-department
+women	I-department
+
+babys	B-department
+toys	B-core_product_type
+3-6	B-department
+months	I-department
+
+iron	B-material
+robe	B-core_product_type
+hook	I-core_product_type
+bird	B-shape
+
+garland	B-modifier
+wall	B-core_product_type
+hanging	I-core_product_type
+
+rustic	B-modifier
+corner	B-shape
+cabinet	B-core_product_type
+for	B-modifier
+dining	I-modifier
+room	I-modifier
+
+family	B-department
+stockings	B-core_product_type
+
+filding	B-core_product_type
+fan	I-core_product_type
+
+guardian	B-product_name
+connect	I-product_name
+medtronic	B-creator
+
+mouse	B-core_product_type
+ears	I-core_product_type
+
+ingrown	B-core_product_type
+hair	I-core_product_type
+treatment	I-core_product_type
+
+espresso	B-core_product_type
+desk	I-core_product_type
+
+black	B-color
+fanny	B-core_product_type
+pack	I-core_product_type
+
+cuisinart	B-creator
+white	B-color
+knife	B-core_product_type
+set	I-core_product_type
+
+placa	B-core_product_type
+gráfica	I-core_product_type
+
+string	B-core_product_type
+lights	I-core_product_type
+usb	B-modifier
+powered	I-modifier
+
+9.7	B-UoM
+inch	I-UoM
+ipad	B-product_name
+case	B-core_product_type
+gold	B-color
+
+32	B-UoM
+inch	I-UoM
+smart	B-modifier
+tv	B-core_product_type
+4k	B-modifier
+
+chopping	B-core_product_type
+block	I-core_product_type
+
+push	B-core_product_type
+up	I-core_product_type
+bra	I-core_product_type
+
+electronic	B-modifier
+display	B-core_product_type
+counter	I-core_product_type
+
+skinny	B-creator
+syrups	B-core_product_type
+sugar	B-modifier
+free	I-modifier
+
+skullcandy	B-creator
+crusher	B-product_name
+anc	I-product_name
+
+kidz	B-content
+bop	I-content
+music	B-core_product_type
+cd	I-core_product_type
+
+tignanello	B-creator
+bag	B-core_product_type
+
+rv	B-modifier
+black	B-color
+water	B-core_product_type
+hose	I-core_product_type
+
+leather	B-material
+jackets	B-core_product_type
+for	B-department
+men	I-department
+
+kvd	B-creator
+liner	B-core_product_type
+
+washstand	B-core_product_type
+sink	I-core_product_type
+
+fortnite	B-content
+toys	B-core_product_type
+battle	B-product_name
+bus	I-product_name
+
+letter	O
+template	O
+
+hey	B-modifier
+dude	I-modifier
+shoes	B-core_product_type
+for	B-department
+men	I-department
+
+breathing	B-core_product_type
+machine	I-core_product_type
+nebulizer	B-modifier
+
+pets	B-department
+mats	B-core_product_type
+
+carpet	B-core_product_type
+runner	I-core_product_type
+
+recorder	B-modifier
+pen	B-core_product_type
+
+sony	B-creator
+e	B-modifier
+mount	I-modifier
+lens	B-core_product_type
+
+glow	B-modifier
+in	I-modifier
+the	I-modifier
+dark	I-modifier
+powder	B-core_product_type
+
+tfal	B-creator
+nonstick	B-modifier
+frying	B-core_product_type
+pans	I-core_product_type
+
+bissell	B-creator
+power	B-product_name
+fresh	I-product_name
+steam	B-core_product_type
+mop	I-core_product_type
+
+wwe	B-content
+pictures	B-core_product_type
+
+playstation	B-product_name
+ps3	B-product_name
+av	B-core_product_type
+
+gifts	B-core_product_type
+for	B-department
+3	I-department
+year	I-department
+old	I-department
+
+kids	B-department
+robots	B-core_product_type
+for	B-department
+boys	I-department
+
+kickback	B-product_name
+rocker	I-product_name
+
+shaving	B-core_product_type
+fluid	I-core_product_type
+
+kids	B-department
+cattle	B-shape
+toys	B-core_product_type
+
+natural	B-modifier
+braided	B-modifier
+hairstyles	B-core_product_type
+without	B-modifier
+weave	I-modifier
+for	B-department
+black	I-department
+women	I-department
+
+butterscotch	B-product_name
+beanie	B-product_name
+boos	I-product_name
+
+outdoor	B-modifier
+terrace	O
+styles	O
+
+atlas	B-product_name
+hammock	B-core_product_type
+straps	I-core_product_type
+
+family	B-department
+tree	B-core_product_type
+wood	B-material
+sign	B-core_product_type
+
+loldoll	B-creator
+case	B-core_product_type
+
+boat	B-core_product_type
+spotlight	I-core_product_type
+marine	B-modifier
+
+38	B-UoM
+ddd	I-UoM
+push	B-core_product_type
+up	I-core_product_type
+bras	I-core_product_type
+for	B-department
+women	I-department
+
+english	B-core_product_type
+breakfast	I-core_product_type
+tea	I-core_product_type
+
+folding	B-modifier
+screen	B-core_product_type
+
+women	B-department
+workout	B-modifier
+pants	B-core_product_type
+
+christmas	B-occasion
+lights	B-core_product_type
+
+kd	B-creator
+frames	I-creator
+
+nrg	B-creator
+innovations	I-creator
+steering	B-core_product_type
+wheel	I-core_product_type
+
+pg	B-creator
+tips	I-creator
+
+badflower	B-content
+sweatshirt	B-core_product_type
+
+men's	B-department
+statue	B-content
+of	I-content
+liberty	I-content
+bi-fold	B-shape
+money	B-core_product_type
+wallet	I-core_product_type
+
+sports	B-core_product_type
+bra	I-core_product_type
+
+columbia	B-creator
+rain	B-core_product_type
+jacket	I-core_product_type
+women	B-department
+
+womens	B-department
+underwear	B-core_product_type
+wedding	B-occasion
+
+angel's	B-content
+in	I-content
+the	I-content
+er	I-content
+
+lg	B-creator
+24mp60vq	B-product_name
+
+bag	B-core_product_type
+of	I-core_product_type
+holding	I-core_product_type
+
+black	B-color
+and	O
+white	B-color
+striped	B-color
+shirt	B-core_product_type
+kids	B-department
+girl	I-department
+
+audible	B-modifier
+books	B-core_product_type
+
+ergonomic	B-core_product_type
+office	I-core_product_type
+chair	I-core_product_type
+without	B-condition
+wheels	I-condition
+
+backpack	B-core_product_type
+for	B-department
+men	I-department
+training	B-occasion
+
+electric	B-modifier
+blanket	B-core_product_type
+full	B-UoM
+size	I-UoM
+
+black	B-creator
+and	I-creator
+decker	I-creator
+edge	B-core_product_type
+hog	I-core_product_type
+replacement	I-core_product_type
+blade	I-core_product_type
+
+angel	B-core_product_type
+wings	I-core_product_type
+
+mouse	B-core_product_type
+pad	I-core_product_type
+hamsa	B-creator
+
+stafford	B-creator
+pjs	B-core_product_type
+for	B-department
+men	I-department
+
+farmhouse	B-core_product_type
+chairs	I-core_product_type
+set	B-quantity
+of	I-quantity
+4	I-quantity
+
+flash	B-core_product_type
+drive	I-core_product_type
+16gb	B-UoM
+
+teen	B-department
+girl	I-department
+shirts	B-core_product_type
+
+poster	B-core_product_type
+board	I-core_product_type
+black	B-color
+foam	B-material
+
+singer	B-creator
+sewing	B-core_product_type
+machine	I-core_product_type
+
+1-light	B-modifier
+fan	B-core_product_type
+kit	I-core_product_type
+without	B-condition
+ceiling	I-condition
+fan	I-condition
+
+binding	B-core_product_type
+coils	I-core_product_type
+
+100%	B-product_name
+whey	I-product_name
+isolate	B-core_product_type
+protein	I-core_product_type
+without	B-modifier
+artifitial	I-modifier
+sweetener	I-modifier
+
+toddler	B-department
+knee	B-shape
+high	I-shape
+socks	B-core_product_type
+white	B-color
+
+soccer	B-occasion
+socks	B-core_product_type
+
+mobile	B-core_product_type
+home	I-core_product_type
+skirting	I-core_product_type
+
+gaming	O
+setup	O
+
+womens	B-department
+reef	B-modifier
+sandals	B-core_product_type
+
+cool	O
+room	O
+without	O
+ac	O
+
+yungblud	B-content
+shirt	B-core_product_type
+
+printer	B-modifier
+paper	B-core_product_type
+8.5x11	B-UoM
+
+deadliest	B-content
+catch	I-content
+season	I-content
+5	I-content
+
+aladdin	B-creator
+loxon	B-product_name
+mantle	B-core_product_type
+
+meme	B-department
+gifts	B-core_product_type
+grandma	B-department
+
+fanny	B-core_product_type
+packs	I-core_product_type
+for	B-department
+women	I-department
+
+victoria	B-creator
+secret	I-creator
+bombshell	B-product_name
+paradise	I-product_name
+perfume	B-core_product_type
+
+power	B-modifier
+water	I-modifier
+hose	B-core_product_type
+nozzle	I-core_product_type
+
+tito	B-creator
+gomez	I-creator
+
+digital	B-modifier
+thermostat	B-core_product_type
+
+flower	B-shape
+nail	B-core_product_type
+head	I-core_product_type
+
+mens	B-department
+cargo	B-core_product_type
+pants	I-core_product_type
+
+morgan	B-creator
+wallen	I-creator
+
+lego	B-creator
+speed	B-product_name
+champions	I-product_name
+
+white	B-color
+balusters	B-core_product_type
+
+warhammer	B-content
+40k	I-content
+kill	I-content
+team	I-content
+
+ac	B-content
+dc	I-content
+jacket	B-core_product_type
+
+women's	B-department
+bags	B-core_product_type
+
+nomad	B-creator
+guitar	B-core_product_type
+tools	I-core_product_type
+
+football	B-core_product_type
+gear	I-core_product_type
+for	B-department
+men	I-department
+
+11/4	B-UoM
+leather	B-material
+belt	B-core_product_type
+without	B-condition
+buckle	I-condition
+
+steep	B-content
+ps4	B-product_name
+game	B-core_product_type
+
+dish	B-core_product_type
+towel	I-core_product_type
+beige	B-color
+
+ipad	B-product_name
+mini	I-product_name
+5	I-product_name
+refurbished	B-condition
+
+i	B-modifier
+tunes	I-modifier
+email	I-modifier
+gift	B-core_product_type
+card	I-core_product_type
+
+high	B-shape
+waisted	I-shape
+leggings	B-core_product_type
+
+mens	B-department
+soap	B-core_product_type
+
+g	B-creator
+shock	I-creator
+protection	B-modifier
+
+towel	B-core_product_type
+headband	I-core_product_type
+for	B-modifier
+washing	I-modifier
+face	I-modifier
+
+32	B-UoM
+qled	B-core_product_type
+
+japanese	B-origin
+swords	B-core_product_type
+
+ben	B-creator
+nye	I-creator
+powder	B-core_product_type
+
+lg	B-creator
+6	B-product_name
+lg	B-creator
+6	B-product_name
+cell	B-core_product_type
+phone	I-core_product_type
+
+samsung	B-creator
+galaxy	B-product_name
+note	I-product_name
+7	I-product_name
+unlocked	B-modifier
+phone	B-core_product_type
+
+1.5	B-UoM
+cu	I-UoM
+ft	I-UoM
+mini	B-shape
+fridge	B-core_product_type
+without	B-condition
+freezer	I-condition
+
+golf	B-core_product_type
+balls	I-core_product_type
+used	B-modifier
+
+ironck	B-creator
+bookshelf	B-core_product_type
+
+kids	B-department
+toys	B-core_product_type
+age	B-department
+4	I-department
+
+mattress	B-core_product_type
+topper	I-core_product_type
+twin	B-UoM
+xl	I-UoM
+firm	B-modifier
+
+chef	B-creator
+boy	I-creator
+ar	I-creator
+dee	I-creator
+pizza	B-core_product_type
+mix	I-core_product_type
+
+sticker	B-core_product_type
+maker	I-core_product_type
+machine	I-core_product_type
+
+coast	B-creator
+headlamp	B-core_product_type
+
+nerf	B-creator
+blaster	B-core_product_type
+
+tn760	B-product_name
+toner	B-core_product_type
+for	B-modifier
+brother	I-modifier
+printer	I-modifier
+
+nose	B-core_product_type
+ring	I-core_product_type
+pack	I-core_product_type
+
+i	B-content
+know	I-content
+what	I-content
+you	I-content
+did	I-content
+last	I-content
+summer	I-content
+book	B-core_product_type
+
+chicken	B-modifier
+fajita	I-modifier
+seasoning	B-core_product_type
+
+cloth	B-modifier
+wipes	I-modifier
+container	B-core_product_type
+airtight	B-modifier
+
+newborn	B-department
+wash	B-core_product_type
+cloths	I-core_product_type
+
+joystick	B-core_product_type
+extender	I-core_product_type
+ps4	B-product_name
+
+magnetic	B-modifier
+travel	B-occasion
+games	B-core_product_type
+
+garmin	B-creator
+striker	B-product_name
+7sv	I-product_name
+with	B-modifier
+transducer	I-modifier
+
+mountain	B-creator
+hardware	I-creator
+sleeping	B-core_product_type
+bags	I-core_product_type
+
+popsocket	B-core_product_type
+cactus	B-content
+
+cora	B-creator
+pads	B-core_product_type
+
+it	B-creator
+cosmetics	I-creator
+cc	B-core_product_type
+cream	I-core_product_type
+
+smart	B-product_name
+cakes	I-product_name
+
+suzuki	B-creator
+intruder	B-product_name
+sticker	B-core_product_type
+
+15	B-modifier
+cube	I-modifier
+storage	B-core_product_type
+organizer	I-core_product_type
+
+ar	B-modifier
+wrench	B-core_product_type
+
+adult	B-department
+olaf	B-content
+costume	B-core_product_type
+
+fiction	B-content
+without	I-content
+frontiers	I-content
+
+wood	B-material
+dough	B-core_product_type
+bowl	I-core_product_type
+
+womens	B-department
+girdles	B-core_product_type
+shapewear	I-core_product_type
+
+womens	B-department
+saints	B-content
+apparel	B-core_product_type
+
+bang	B-creator
+variety	B-modifier
+pack	B-core_product_type
+
+the	B-content
+world	I-content
+that	I-content
+made	I-content
+new	I-content
+orleans	I-content
+
+hobie	B-creator
+livewell	B-product_name
+v2	I-product_name
+
+cornbread	B-core_product_type
+flavoring	I-core_product_type
+
+infant	B-department
+boys	I-department
+baseball	B-modifier
+tee	B-core_product_type
+
+1	B-UoM
+0	I-UoM
+gauge	B-core_product_type
+reducer	I-core_product_type
+
+multitool	B-core_product_type
+without	B-condition
+knife	B-content
+
+razer	B-creator
+blade	B-product_name
+15	I-product_name
+
+water	B-core_product_type
+table	I-core_product_type
+for	B-department
+toddlers	I-department
+1-3	I-department
+
+00	B-UoM
+gauge	B-core_product_type
+funny	B-modifier
+christmas	B-occasion
+
+neck	B-core_product_type
+brace	I-core_product_type
+
+trump	B-content
+straws	B-core_product_type
+-	O
+pack	B-quantity
+of	I-quantity
+10	I-quantity
+
+lipo	B-core_product_type
+foam	I-core_product_type
+
+white	B-color
+mylar	B-material
+bags	B-core_product_type
+
+funko	B-creator
+pop	I-creator
+80's	B-time
+
+lg	B-creator
+xpression	B-modifier
+c395	I-modifier
+case	B-core_product_type
+
+burrata	B-core_product_type
+cheese	I-core_product_type
+
+the	B-creator
+neighbourhood	I-creator
+
+air	B-modifier
+fryer	I-modifier
+cookbook	B-core_product_type
+healthy	B-modifier
+
+microwave	B-core_product_type
+oven	I-core_product_type
+
+apc	B-core_product_type
+be350g	B-modifier
+ups	I-modifier
+
+popcorn	B-core_product_type
+popper	I-core_product_type
+
+a	B-content
+me	I-content
+without	I-content
+we	I-content
+
+piano	B-modifier
+tie	B-core_product_type
+
+1	B-UoM
+5/8	I-UoM
+pop	B-core_product_type
+up	I-core_product_type
+drain	I-core_product_type
+without	B-condition
+overflow	I-condition
+
+15-inch	B-UoM
+macbook	B-product_name
+pro	I-product_name
+
+homecoming	B-occasion
+dresses	B-core_product_type
+short	B-shape
+tight	I-shape
+sparkles	B-modifier
+
+feel	B-modifier
+real	I-modifier
+christmas	B-occasion
+garland	B-core_product_type
+
+gas	B-core_product_type
+burners	I-core_product_type
+for	B-modifier
+cooking	I-modifier
+outdoor	I-modifier
+
+desk	B-core_product_type
+organizer	I-core_product_type
+
+teal	B-core_product_type
+tutu	I-core_product_type
+girls	B-department
+
+dell	B-creator
+ultrasharp	B-product_name
+premium	I-product_name
+32	B-UoM
+
+1ft	B-UoM
+n-male	B-modifier
+to	I-modifier
+n-male	I-modifier
+lmr400	B-product_name
+
+womens	B-department
+black	B-color
+skirts	B-core_product_type
+above	B-shape
+the	I-shape
+knee	I-shape
+
+houndstooth	B-color
+bandana	B-core_product_type
+
+vintage	B-condition
+outfits	B-core_product_type
+for	B-department
+women	I-department
+
+backwash	B-core_product_type
+connector	I-core_product_type
+
+smallest	B-UoM
+dot	B-modifier
+approved	I-modifier
+motorcycle	B-modifier
+helmet	B-core_product_type
+
+moleskine	B-creator
+dot	B-product_name
+soft	I-product_name
+large	B-UoM
+
+wall	B-core_product_type
+hanging	I-core_product_type
+
+cameras	B-core_product_type
+for	B-modifier
+home	I-modifier
+security	I-modifier
+
+simon	B-creator
+and	I-creator
+schuster	I-creator
+workbook	B-content
+for	I-content
+writers	I-content
+
+prelit	O
+christmas	B-core_product_type
+tree	I-core_product_type
+skinny	B-shape
+
+bycicles	B-core_product_type
+pump	I-core_product_type
+
+sit	B-modifier
+stand	I-modifier
+desk	B-core_product_type
+
+timeless	B-product_name
+roll	B-core_product_type
+on	I-core_product_type
+
+governance	B-content
+in	I-content
+sport	I-content
+:	I-content
+analydis	I-content
+and	I-content
+application	I-content
+
+metal	B-material
+bed	B-core_product_type
+frames	I-core_product_type
+
+garbage	B-core_product_type
+disposal	I-core_product_type
+install	B-modifier
+
+commercial	O
+refrigerator	B-core_product_type
+food	B-modifier
+truck	I-modifier
+
+phone	B-core_product_type
+case	I-core_product_type
+iphone	B-product_name
+x	I-product_name
+
+sew	O
+barbie	B-content
+clothes	B-core_product_type
+
+native	B-creator
+deodorant	B-core_product_type
+for	B-department
+women	I-department
+
+shirt	B-core_product_type
+dresses	I-core_product_type
+for	B-department
+women	I-department
+plus	B-UoM
+size	I-UoM
+
+boys	B-department
+rollerblades	B-core_product_type
+size	B-UoM
+5-8	I-UoM
+
+hayward	B-creator
+seal	B-core_product_type
+assembly	I-core_product_type
+kit	I-core_product_type
+
+huggies	B-creator
+overnight	B-modifier
+size	B-UoM
+6	I-UoM
+
+papermate	B-creator
+flair	B-product_name
+pens	B-core_product_type
+
+lg	B-creator
+v50	B-modifier
+screen	B-core_product_type
+protectortempered	I-core_product_type
+glass	B-material
+
+soleus	B-creator
+air	B-core_product_type
+conditioner	I-core_product_type
+
+plus	B-shape
+body	B-core_product_type
+chains	I-core_product_type
+for	B-department
+women	I-department
+sexy	B-modifier
+
+wall	B-modifier
+space	B-core_product_type
+heater	I-core_product_type
+
+power	B-product_name
+wheels	I-product_name
+
+cute	B-modifier
+halloween	B-occasion
+costume	B-core_product_type
+women	B-department
+
+chef's	B-creator
+choice	I-creator
+slicer	B-core_product_type
+
+photo	B-core_product_type
+paper	I-core_product_type
+for	B-modifier
+cannon	I-modifier
+printer	I-modifier
+
+ok	B-creator
+to	I-creator
+wake	I-creator
+clock	B-core_product_type
+
+70s	B-time
+pants	B-core_product_type
+
+psycho	B-content
+pass	I-content
+sinners	I-content
+of	I-content
+the	I-content
+system	I-content
+
+bunny	B-shape
+timer	B-core_product_type
+
+the	B-content
+phantom	I-content
+of	I-content
+the	I-content
+opera	I-content
+costume	B-core_product_type
+
+fruits	B-content
+basket	I-content
+poster	B-core_product_type
+
+light	B-core_product_type
+blue	B-color
+balloons	B-core_product_type
+
+paris	B-content
+towels	B-core_product_type
+kitchen	B-modifier
+
+acrylic	B-material
+hanging	B-modifier
+crystal	B-core_product_type
+beads	I-core_product_type
+
+guess	B-creator
+slim	B-shape
+fit	I-shape
+shirts	B-core_product_type
+for	B-department
+men	I-department
+
+protection	B-core_product_type
+from	I-core_product_type
+dist	I-core_product_type
+
+womens	B-department
+pantyhose	B-core_product_type
+
+will	B-content
+you	I-content
+be	I-content
+my	I-content
+bridesmaid	I-content
+sticker	B-core_product_type
+
+pathways	B-content
+reading	I-content
+writing	I-content
+and	I-content
+critical	I-content
+thinking	I-content
+1	I-content
+
+lenovo	B-creator
+ideapad	B-product_name
+2in1	B-modifier
+
+vizio	B-creator
+50	B-UoM
+inch	I-UoM
+smart	B-core_product_type
+tv	I-core_product_type
+
+tecnomarine	B-creator
+watch	B-core_product_type
+for	B-department
+men	I-department
+
+colored	B-modifier
+pill	B-core_product_type
+bags	I-core_product_type
+for	B-modifier
+medicine	I-modifier
+small	B-UoM
+
+bulk	B-quantity
+bubble	B-core_product_type
+mailers	I-core_product_type
+
+all	B-content
+the	I-content
+lovely	I-content
+bones	I-content
+
+silver	B-color
+barrets	B-core_product_type
+
+it	B-content
+chapter	I-content
+2	I-content
+blu	B-core_product_type
+ray	I-core_product_type
+
+bing	B-creator
+crosby	I-creator
+white	B-content
+christmas	I-content
+vinyl	B-core_product_type
+
+camping	B-core_product_type
+stool	I-core_product_type
+
+doxology	B-content
+a	O
+novel	B-core_product_type
+by	O
+nell	B-creator
+zink	I-creator
+
+dresser	B-modifier
+drawer	B-core_product_type
+organizer	I-core_product_type
+
+garden	B-core_product_type
+decor	I-core_product_type
+party	B-occasion
+
+co2	B-modifier
+laser	B-core_product_type
+cutter	I-core_product_type
+
+billy	B-creator
+goat	I-creator
+aerator	B-core_product_type
+tines	I-core_product_type
+
+folding	B-modifier
+wall	B-core_product_type
+bike	I-core_product_type
+rack	I-core_product_type
+
+sony	B-modifier
+mirrorless	I-modifier
+camera	I-modifier
+lens	B-core_product_type
+
+casio	B-creator
+watch	B-core_product_type
+gold	B-material
+
+best	O
+surge	B-core_product_type
+protector	I-core_product_type
+for	B-modifier
+tv	I-modifier
+
+the	B-creator
+big	I-creator
+one®	I-creator
+gel	B-material
+memory	I-material
+foam	I-material
+side	B-modifier
+sleeper	I-modifier
+pillow	B-core_product_type
+
+vivarium	B-core_product_type
+tank	I-core_product_type
+
+leather	B-material
+belt	B-core_product_type
+blank	B-color
+
+one	B-content
+wish	I-content
+
+rode	B-creator
+wireless	B-product_name
+go	I-product_name
+
+amd	B-creator
+ryzen	I-creator
+heatsink	B-product_name
+
+grateful	B-content
+dead	I-content
+hats	B-core_product_type
+
+the	B-content
+world	I-content
+without	I-content
+you	I-content
+
+3	B-UoM
+quart	I-UoM
+instant	B-modifier
+pot	I-modifier
+accessories	B-core_product_type
+
+wonder	B-content
+woman	I-content
+water	B-core_product_type
+bottles	I-core_product_type
+
+las	B-creator
+palmas	I-creator
+red	B-modifier
+chili	B-core_product_type
+sauce	I-core_product_type
+
+vga	B-core_product_type
+to	I-core_product_type
+hdmi	I-core_product_type
+adapter	I-core_product_type
+
+lavender	O
+headband	B-core_product_type
+
+bluetooth	B-core_product_type
+reciever	I-core_product_type
+and	O
+mic	B-core_product_type
+
+bathbombs	B-core_product_type
+with	B-modifier
+toys	I-modifier
+inside	I-modifier
+
+christmas	B-occasion
+candel	B-core_product_type
+
+calculus	B-content
+early	I-content
+transcendentals	I-content
+11th	I-content
+edition	I-content
+
+universal	B-modifier
+cross	B-core_product_type
+bars	I-core_product_type
+for	B-modifier
+roof	I-modifier
+rack	I-modifier
+without	B-shape
+rails	I-shape
+
+light	B-core_product_type
+saber	I-core_product_type
+
+200cc	B-UoM
+motor	B-core_product_type
+
+electric	B-modifier
+water	B-core_product_type
+siphon	I-core_product_type
+pump	I-core_product_type
+
+kitchen	B-modifier
+aluminum	B-core_product_type
+foil	I-core_product_type
+organizer	I-core_product_type
+
+tables	B-core_product_type
+for	B-department
+toddlers	I-department
+with	B-modifier
+chairs	I-modifier
+
+shadows	B-content
+in	I-content
+the	I-content
+forest	I-content
+
+einsteins	B-content
+dreams	I-content
+by	O
+alan	B-creator
+lightman	I-creator
+
+girl	B-content
+without	I-content
+a	I-content
+country	I-content
+
+outdoor	B-modifier
+wooden	B-material
+rustic	B-modifier
+planter	B-core_product_type
+
+iceland	B-content
+sagas	I-content
+
+valentine's	B-occasion
+day	I-occasion
+
+street	B-product_name
+blaster	I-product_name
+boom	B-core_product_type
+box	I-core_product_type
+
+fuji	B-creator
+white	B-color
+paint	B-core_product_type
+
+best	O
+air	B-core_product_type
+fryer	I-core_product_type
+easy	B-modifier
+cleanup	I-modifier
+
+pentagon	B-creator
+albums	B-core_product_type
+
+heavy	B-modifier
+work	I-modifier
+jacket	B-core_product_type
+
+huggies	B-creator
+diapers	B-core_product_type
+overnight	B-modifier
+size	B-UoM
+4	I-UoM
+
+hot	B-core_product_type
+cold	I-core_product_type
+wrap	I-core_product_type
+for	B-modifier
+knee	I-modifier
+
+metal	B-material
+console	B-core_product_type
+table	I-core_product_type
+
+keychain	B-core_product_type
+ends	I-core_product_type
+
+sheer	B-material
+catsuit	B-core_product_type
+front	B-shape
+zipper	B-core_product_type
+
+dhea	B-core_product_type
+100mg	B-UoM
+
+pink	B-color
+2xl	B-UoM
+safety	B-core_product_type
+vest	I-core_product_type
+
+swivel	B-modifier
+bar	B-core_product_type
+stool	I-core_product_type
+
+empty	B-modifier
+roller	B-core_product_type
+bottles	I-core_product_type
+
+wappen	B-modifier
+patch	B-core_product_type
+
+polo	B-creator
+shoes	B-core_product_type
+
+buffalo	B-color
+plaid	I-color
+raglan	B-core_product_type
+
+pre	B-core_product_type
+workout	I-core_product_type
+without	B-condition
+creatine	I-condition
+
+1.5	B-UoM
+quart	I-UoM
+saucepan	B-core_product_type
+without	B-condition
+lid	I-condition
+
+beautifully	B-content
+profitable	I-content
+
+peter	B-creator
+wolf	I-creator
+lights	B-content
+out	I-content
+
+kindred	B-content
+series	B-core_product_type
+
+mens	B-department
+graphic	B-modifier
+t	B-core_product_type
+shirts	I-core_product_type
+
+cute	B-modifier
+pajamas	B-core_product_type
+for	B-department
+girls	I-department
+
+macmillan	B-creator
+collectors	B-content
+library	I-content
+
+kitchenaid	B-creator
+c	B-product_name
+
+melissa	B-creator
+and	I-creator
+doug	I-creator
+tattoos	B-core_product_type
+
+box	B-core_product_type
+tools	I-core_product_type
+
+80	B-time
+headbands	B-core_product_type
+for	B-department
+women	I-department
+
+merlin	B-content
+poster	B-core_product_type
+
+maybelline	B-creator
+foundation	B-core_product_type
+
+lego	B-creator
+big	B-product_name
+wheels	I-product_name
+
+hurricane	B-core_product_type
+stem	I-core_product_type
+candle	I-core_product_type
+holder	I-core_product_type
+
+the	B-content
+purge	I-content
+mask	B-core_product_type
+led	B-modifier
+
+bret	B-content
+contreras	I-content
+
+kobalt	B-creator
+leaf	B-core_product_type
+blower	I-core_product_type
+
+sega	B-creator
+genesis	B-product_name
+ultimate	I-product_name
+handheld	B-core_product_type
+
+charge	B-modifier
+2	I-modifier
+charger	B-core_product_type
+
+wood	O
+art	O
+
+girls	B-department
+bookshelf	B-core_product_type
+
+lights	B-core_product_type
+battery	B-modifier
+operated	I-modifier
+
+square	B-shape
+recessed	B-shape
+lighting	B-core_product_type
+
+pickup	B-core_product_type
+coil	I-core_product_type
+
+pillow	B-core_product_type
+covers	I-core_product_type
+18x18	B-UoM
+bedroom	B-modifier
+
+shiny	B-modifier
+printer	B-core_product_type
+s-844	B-product_name
+
+fishing	B-core_product_type
+gear	I-core_product_type
+
+zoodle	B-core_product_type
+maker	I-core_product_type
+
+activewear	B-core_product_type
+tops	I-core_product_type
+for	B-department
+women	I-department
+purple	B-color
+
+outdoor	B-modifier
+thermometer	B-core_product_type
+
+ralph	B-creator
+lauren	I-creator
+sheets	B-core_product_type
+full	B-UoM
+size	I-UoM
+
+no	B-content
+weapons	I-content
+allowed	I-content
+sign	B-core_product_type
+
+hoover	B-creator
+carpet	B-core_product_type
+cleaner	I-core_product_type
+solution	I-core_product_type
+
+key	B-core_product_type
+0.8mm	B-UoM
+
+omg	B-product_name
+lol	B-creator
+dolls	B-core_product_type
+
+breastfeeding	B-core_product_type
+stool	I-core_product_type
+
+push	B-core_product_type
+lights	I-core_product_type
+battery	B-modifier
+operated	I-modifier
+stick	B-modifier
+on	I-modifier
+
+camping	B-core_product_type
+tanks	I-core_product_type
+for	B-department
+women	I-department
+
+shure	B-creator
+lavalier	B-product_name
+microphone	B-core_product_type
+
+unscented	B-modifier
+sunscreen	B-core_product_type
+spray	I-core_product_type
+
+windex	B-creator
+glass	B-core_product_type
+cleaner	I-core_product_type
+
+brake	B-modifier
+caliper	I-modifier
+decal	B-core_product_type
+
+kid	B-department
+chapter	B-core_product_type
+books	I-core_product_type
+on	B-modifier
+cd	I-modifier
+
+antivenom	B-content
+marvel	B-creator
+
+grateful	B-content
+journal	I-content
+
+medium	B-shape
+tall	B-shape
+hi	B-core_product_type
+viz	I-core_product_type
+
+tory	B-creator
+burch	I-creator
+slippers	B-core_product_type
+for	B-department
+women	I-department
+clearance	B-price
+
+50	B-content
+ways	I-content
+to	I-content
+soothe	I-content
+yourself	I-content
+without	I-content
+food	I-content
+
+basketball	B-modifier
+funiture	B-core_product_type
+
+round	B-shape
+wood	B-material
+and	I-material
+metal	I-material
+pub	B-modifier
+table	B-core_product_type
+
+metal	B-material
+stamping	B-core_product_type
+blanks	I-core_product_type
+copper	B-material
+
+jla	O
+home	O
+vancouver	O
+coverlet	B-core_product_type
+
+avengers	B-content
+toys	B-core_product_type
+endgame	B-content
+titan	I-content
+
+samsung	B-creator
+galaxy	B-product_name
+s10	I-product_name
+case	B-core_product_type
+with	B-modifier
+built	I-modifier
+in	I-modifier
+screen	I-modifier
+protector	I-modifier
+
+tablets	B-core_product_type
+to	B-modifier
+calm	I-modifier
+nerves	I-modifier
+and	I-modifier
+promote	I-modifier
+sleep	I-modifier
+
+coral	B-color
+color	O
+outdoor	B-modifier
+throw	B-core_product_type
+pillows	I-core_product_type
+
+shimmer	B-core_product_type
+dismond	B-modifier
+disco	I-modifier
+
+lebron	B-content
+jamesshoes	O
+
+full	B-UoM
+size	I-UoM
+zippered	B-core_product_type
+mattress	B-core_product_type
+protector	I-core_product_type
+
+prime	O
+deal	O
+bidet	B-core_product_type
+self	B-modifier
+cleaning	I-modifier
+
+trunk	B-core_product_type
+bike	I-core_product_type
+rack	I-core_product_type
+4	B-modifier
+
+iphone	B-product_name
+11	I-product_name
+pro	I-product_name
+max	I-product_name
+screen	B-core_product_type
+protector	I-core_product_type
+
+womens	B-department
+scrub	B-core_product_type
+jacket	I-core_product_type
+
+pendant	B-core_product_type
+light	I-core_product_type
+without	B-modifier
+shade	I-modifier
+
+atheltic	B-core_product_type
+shorts	I-core_product_type
+
+50th	B-occasion
+birthday	I-occasion
+gifts	B-core_product_type
+for	B-department
+women	I-department
+
+abeeno	B-creator
+body	B-core_product_type
+wash	I-core_product_type
+
+gaming	B-modifier
+laptop	B-core_product_type
+bag	I-core_product_type
+
+lunch	B-core_product_type
+box	I-core_product_type
+for	B-department
+kids	I-department
+
+mp3	B-modifier
+old	B-content
+town	I-content
+road	I-content
+
+the	B-content
+persian	I-content
+gamble	I-content
+
+woman	B-department
+sneaker	B-creator
+shoes	B-core_product_type
+
+vegan	B-product_name
+adidas	B-core_product_type
+
+book	B-core_product_type
+how	B-content
+to	I-content
+use	I-content
+gmail	I-content
+
+silver	B-color
+beads	B-core_product_type
+
+greeting	B-core_product_type
+card	I-core_product_type
+80lb	B-UoM
+cover	B-modifier
+
+spoon	B-core_product_type
+ring	I-core_product_type
+
+brass	B-material
+atomizer	B-modifier
+spray	B-core_product_type
+bottle	I-core_product_type
+
+spike	B-content
+lee	I-content
+joint	I-content
+dvd	B-core_product_type
+
+waffle	B-content
+shirts	B-core_product_type
+for	B-department
+men	I-department
+
+flash	B-content
+glasses	B-core_product_type
+
+purple	B-color
+blue	B-color
+lamp	B-core_product_type
+
+natrapel	B-creator
+wipes	B-core_product_type
+
+cute	B-modifier
+page	B-core_product_type
+clips	I-core_product_type
+
+womens	B-department
+fitted	B-shape
+jean	B-core_product_type
+jacket	I-core_product_type
+
+poop	B-shape
+beer	B-core_product_type
+glass	I-core_product_type
+
+toys	B-core_product_type
+1	B-department
+year	I-department
+old	I-department
+girl	I-department
+
+sweet	B-core_product_type
+potato	I-core_product_type
+pie	I-core_product_type
+
+dear	B-content
+girls	I-content
+
+axolotl	B-content
+roadkill	I-content
+
+tan	B-color
+skirts	B-core_product_type
+for	B-department
+women	I-department
+
+beer	B-core_product_type
+barrel	I-core_product_type
+
+dog	B-modifier
+harness	B-core_product_type
+with	B-modifier
+handle	I-modifier
+
+trillion	B-shape
+cut	I-shape
+earrings	B-core_product_type
+
+gift	B-core_product_type
+cards	I-core_product_type
+for	B-occasion
+birthday	I-occasion
+
+pajama	B-core_product_type
+shorts	I-core_product_type
+
+swimsuit	B-core_product_type
+cover	B-modifier
+ups	I-modifier
+for	B-department
+women	I-department
+
+full	B-modifier
+body	I-modifier
+pillow	B-core_product_type
+for	B-department
+pregnant	I-department
+women	I-department
+
+prettycare	B-creator
+eye	B-core_product_type
+dropper	I-core_product_type
+white	B-color
+bottle	B-shape
+
+fish	B-core_product_type
+tank	I-core_product_type
+clean	O
+
+sponge	B-core_product_type
+holder	I-core_product_type
+
+ab	B-core_product_type
+muscle	I-core_product_type
+stimulator	I-core_product_type
+rechargeble	B-modifier
+
+monday	B-content
+leadership:	I-content
+8	I-content
+
+maca	B-material
+supplement	B-core_product_type
+
+4k	B-modifier
+projectors	B-core_product_type
+
+monk	B-core_product_type
+strap	I-core_product_type
+
+bastiens	B-content
+invitation	I-content
+to	I-content
+music	I-content
+b	I-content
+
+off	B-core_product_type
+chips	I-core_product_type
+craps	I-core_product_type
+
+care	B-content
+bear	I-content
+edible	B-modifier
+
+i	B-content
+can	I-content
+read	I-content
+music	I-content
+violin	I-content
+vol	I-content
+2	I-content
+
+elementary	B-modifier
+homeschool	I-modifier
+student	B-department
+planner	B-core_product_type
+
+rothco	B-creator
+canvas	B-material
+shoulder	B-core_product_type
+bag	I-core_product_type
+
+iphone	B-product_name
+11	I-product_name
+xs	I-product_name
+unlocked	B-modifier
+
+gym	B-core_product_type
+leggings	I-core_product_type
+women	B-department
+
+barbie	B-content
+shirt	B-core_product_type
+
+little	B-content
+blue	I-content
+truck	I-content
+birthday	B-occasion
+
+house	B-occasion
+warming	I-occasion
+gifts	B-core_product_type
+new	B-occasion
+home	I-occasion
+
+caterpillar	B-creator
+oversee	B-product_name
+steel	B-material
+toe	B-modifier
+waterproof	I-modifier
+shoes	B-core_product_type
+
+wireless	B-modifier
+digital	B-core_product_type
+picture	I-core_product_type
+frame	I-core_product_type
+wifi	B-modifier
+
+fire	B-product_name
+tv	I-product_name
+
+baby	B-department
+walkers	B-core_product_type
+disney	B-creator
+
+organic	B-modifier
+bananas	B-core_product_type
+
+iphone	B-product_name
+10	I-product_name
+xs	I-product_name
+max	I-product_name
+price	O
+
+ender	B-product_name
+3	I-product_name
+
+salt	B-core_product_type
+ebt	B-modifier
+eligible	I-modifier
+
+food	B-modifier
+label	B-core_product_type
+picks	I-core_product_type
+
+white	B-color
+linen	B-material
+shorts	B-core_product_type
+for	B-department
+women	I-department
+
+insulated	B-modifier
+shoulder	B-core_product_type
+tote	I-core_product_type
+
+miltons	B-creator
+gluten	B-modifier
+free	I-modifier
+crackers	B-core_product_type
+
+lumi	B-creator
+baby	B-core_product_type
+monitor	I-core_product_type
+with	B-modifier
+camera	I-modifier
+and	I-modifier
+audio	I-modifier
+
+smart	B-core_product_type
+watch	I-core_product_type
+for	B-modifier
+android	I-modifier
+
+massagers	B-core_product_type
+for	B-modifier
+muscles	I-modifier
+handheld	I-modifier
+deep	I-modifier
+tissue	I-modifier
+
+sds	B-core_product_type
+max	I-core_product_type
+chisel	I-core_product_type
+
+big	B-UoM
+dog	B-core_product_type
+pillow	I-core_product_type
+for	B-modifier
+large	I-modifier
+dogs	I-modifier
+
+can	B-creator
+am	I-creator
+outlander	I-creator
+800	B-quantity
+stickers	B-core_product_type
+
+myra	B-creator
+makeup	B-core_product_type
+bag	I-core_product_type
+
+em	B-core_product_type
+sculpting	I-core_product_type
+machine	I-core_product_type
+professional	B-modifier
+
+floating	B-modifier
+slelves	B-core_product_type
+sets	I-core_product_type
+
+harrys	B-creator
+razors	B-core_product_type
+for	B-department
+men	I-department
+
+husand	B-modifier
+pillow	B-core_product_type
+
+sunflower	B-shape
+earrings	B-core_product_type
+
+heroes	B-content
+without	I-content
+capes	I-content
+shirt	B-core_product_type
+
+glass	B-material
+top	B-modifier
+black	B-color
+coffee	I-color
+side	B-core_product_type
+table	I-core_product_type
+
+cat	B-core_product_type
+box	I-core_product_type
+
+gundam	B-content
+tool	B-core_product_type
+kit	I-core_product_type
+
+reindeer	B-content
+decorations	B-core_product_type
+christmas	B-occasion
+indoor	B-modifier
+
+billie	B-content
+eilish	I-content
+hoodie	B-core_product_type
+
+leupold	B-creator
+bikini	B-product_name
+scope	B-core_product_type
+covers	I-core_product_type
+
+garden	B-modifier
+string	B-shape
+solar	B-modifier
+lights	B-core_product_type
+
+vortex	B-creator
+hd	B-product_name
+lh	I-product_name
+razor	I-product_name
+
+rubio	B-creator
+monocoat	I-creator
+super	B-product_name
+white	I-product_name
+
+fairy	B-core_product_type
+light	I-core_product_type
+bulbs	I-core_product_type
+
+apron	B-core_product_type
+and	I-core_product_type
+chef	I-core_product_type
+hat	I-core_product_type
+for	B-department
+kids	I-department
+
+ring	B-creator
+camera	B-core_product_type
+
+circular	B-shape
+glass	B-material
+baking	B-core_product_type
+dish	I-core_product_type
+
+fans	B-core_product_type
+portable	B-modifier
+
+boat	B-core_product_type
+trailer	I-core_product_type
+roller	I-core_product_type
+assembly	I-core_product_type
+
+cords	B-core_product_type
+for	B-modifier
+zero	I-modifier
+gravity	I-modifier
+chair	I-modifier
+
+jym	B-core_product_type
+workout	I-core_product_type
+
+hair	B-modifier
+straightener	I-modifier
+brush	B-core_product_type
+
+clipper	B-creator
+lighters	B-core_product_type
+
+tile	B-modifier
+with	B-material
+replaceable	B-modifier
+battery	B-core_product_type
+
+lg	B-creator
+stylo	B-modifier
+5	I-modifier
+battery	B-core_product_type
+case	I-core_product_type
+
+black	B-color
+christmas	B-occasion
+stocking	B-core_product_type
+
+kids	B-department
+trampoline	B-core_product_type
+
+camera	B-core_product_type
+stabilizer	I-core_product_type
+
+marcus	B-creator
+miller	I-creator
+marcus	I-creator
+
+multi	B-modifier
+regional	I-modifier
+dvd	B-core_product_type
+player	I-core_product_type
+
+athletic	B-modifier
+shorts	B-core_product_type
+men	B-department
+
+driving	B-modifier
+fire	B-core_product_type
+trucks	I-core_product_type
+for	B-department
+boys	I-department
+
+heated	B-modifier
+shirt	B-core_product_type
+
+i-blason	B-creator
+apple	B-creator
+watch	B-product_name
+3	I-product_name
+case	B-core_product_type
+42mm	B-UoM
+
+camera	B-core_product_type
+microphone	I-core_product_type
+
+husqvarna	B-creator
+zero	B-modifier
+turn	I-modifier
+mower	B-core_product_type
+
+cable	B-core_product_type
+for	B-modifier
+dog	I-modifier
+60-feet	B-UoM
+
+toy	B-content
+story	I-content
+3	I-content
+
+5x	B-UoM
+sweaters	B-core_product_type
+
+error	B-content
+404	I-content
+not	I-content
+found	I-content
+
+chicago	B-creator
+lighthouse	I-creator
+wall	B-modifier
+clock	B-core_product_type
+
+norelco	B-creator
+replacement	B-core_product_type
+heads	I-core_product_type
+
+bills	B-shape
+bracelet	B-core_product_type
+
+birthday	B-occasion
+gifts	B-core_product_type
+for	B-department
+women	I-department
+
+4mm	B-UoM
+knitting	B-core_product_type
+needles	I-core_product_type
+
+corn	B-core_product_type
+hole	I-core_product_type
+game	I-core_product_type
+wooden	B-material
+
+xfx	B-product_name
+radeon	I-product_name
+rx	I-product_name
+590	I-product_name
+
+lg	B-creator
+88	B-UoM
+inch	I-UoM
+tv	B-core_product_type
+
+wellboo	B-product_name
+marble	B-color
+comforter	B-core_product_type
+
+iphone	B-product_name
+7	I-product_name
+case	B-core_product_type
+white	B-color
+cockatiel	B-content
+
+ishoot	B-product_name
+vertical	B-shape
+quick	B-core_product_type
+release	I-core_product_type
+plate	I-core_product_type
+
+redmi	B-creator
+note	B-product_name
+7	I-product_name
+
+nixwax	B-product_name
+waterproof	B-modifier
+wax	B-core_product_type
+
+water	B-core_product_type
+bong	I-core_product_type
+for	B-modifier
+smoking	I-modifier
+
+pizza	B-content
+patch	B-core_product_type
+iron	B-modifier
+on	I-modifier
+
+lone	B-content
+survivor	I-content
+
+pill	B-core_product_type
+bottles	I-core_product_type
+empty	B-modifier
+with	I-modifier
+caps	I-modifier
+
+chukka	B-core_product_type
+boots	I-core_product_type
+for	B-department
+toddler	I-department
+boys	I-department
+
+wyze	B-creator
+face	B-core_product_type
+masks	I-core_product_type
+50	B-quantity
+count	I-quantity
+
+ghosts	B-content
+by	B-creator
+raina	I-creator
+telgemeier	I-creator
+
+green	B-color
+6x	B-UoM
+polo	B-core_product_type
+shirt	I-core_product_type
+
+palm	B-color
+leave	I-color
+linen	B-material
+napkins	B-core_product_type
+
+vacuum/pressure	B-core_product_type
+gauges	I-core_product_type
+fuel	B-modifier
+oil	B-modifier
+
+toe	B-core_product_type
+rings	I-core_product_type
+for	B-department
+women	I-department
+
+champion	B-creator
+sweatpants	B-core_product_type
+
+thrush	B-creator
+exhaust	B-core_product_type
+kit	I-core_product_type
+
+3	B-modifier
+way	I-modifier
+valve	B-core_product_type
+
+unsolved	B-content
+case	I-content
+files	I-content
+game	B-core_product_type
+
+eyes	B-content
+of	I-content
+the	I-content
+grateful	I-content
+deadworld	I-content
+poster	B-core_product_type
+
+slyke	B-creator
+pet	B-core_product_type
+bed	I-core_product_type
+
+marilyn	B-content
+monroe	I-content
+wall	B-core_product_type
+decor	I-core_product_type
+
+cheetah	B-color
+print	I-color
+wallet	B-core_product_type
+
+power	B-core_product_type
+station	I-core_product_type
+puleida	B-creator
+
+clear	B-color
+airpod	B-product_name
+case	B-core_product_type
+
+rugs	B-core_product_type
+brown	B-color
+and	O
+beige	B-color
+
+sand	B-modifier
+filter	B-modifier
+pumps	B-core_product_type
+for	B-modifier
+above	I-modifier
+ground	I-modifier
+pools	I-modifier
+
+big	B-shape
+backyard	B-modifier
+umbrella	B-core_product_type
+
+d	B-core_product_type
+loop	I-core_product_type
+material	I-core_product_type
+
+cirgical	B-modifier
+face	B-core_product_type
+mask	I-core_product_type
+
+holiday	B-occasion
+ornaments	B-core_product_type
+
+swanson	B-creator
+multivitamin	B-core_product_type
+without	B-condition
+iron	I-condition
+
+metal	B-material
+letter	B-core_product_type
+stamps	I-core_product_type
+
+go	B-product_name
+girl	I-product_name
+female	B-core_product_type
+urination	I-core_product_type
+device	I-core_product_type
+
+pillow	B-core_product_type
+cases	I-core_product_type
+20x20	B-UoM
+velvet	B-material
+
+gene	B-creator
+winfield	I-creator
+
+care	B-product_name
+for	I-product_name
+me	I-product_name
+carrier	B-core_product_type
+
+jeans	B-core_product_type
+american	B-creator
+eagle	I-creator
+for	B-department
+men	I-department
+
+pink	B-color
+dresses	B-core_product_type
+for	B-department
+women	I-department
+
+air	B-core_product_type
+mattress	I-core_product_type
+
+clive	B-content
+barker	I-content
+
+a	B-content
+moveable	I-content
+feast	I-content
+hemingway	B-core_product_type
+
+love	B-shape
+heart	I-shape
+women	B-department
+necklace	B-core_product_type
+
+nail	B-core_product_type
+stickers	I-core_product_type
+
+white	B-color
+metallica	B-content
+shirt	B-core_product_type
+
+bigfoot	B-content
+hat	B-core_product_type
+
+baby	B-department
+sleeping	B-core_product_type
+sack	I-core_product_type
+0-3	B-department
+months	I-department
+
+baby	B-department
+chemistry	B-content
+
+richard	B-creator
+wagner	I-creator
+shirt	B-core_product_type
+
+pack	B-quantity
+of	I-quantity
+25	I-quantity
+
+light	B-core_product_type
+bulb	I-core_product_type
+changer	I-core_product_type
+for	B-modifier
+high	I-modifier
+ceilings	I-modifier
+
+heel	B-modifier
+cushion	B-core_product_type
+inserts	I-core_product_type
+
+cx	B-modifier
+5	I-modifier
+radio	B-core_product_type
+
+personalized	B-modifier
+gifts	B-core_product_type
+for	B-department
+men	I-department
+
+vizio	B-creator
+50	B-UoM
+inch	I-UoM
+tv	B-core_product_type
+
+thermarest	B-product_name
+pad	B-core_product_type
+
+88	B-modifier
+key	I-modifier
+weighted	I-modifier
+keyboard	B-core_product_type
+
+harley	B-content
+quinn	I-content
+inflatable	B-material
+mallet	B-core_product_type
+
+good	B-content
+night,	I-content
+baby,	I-content
+good	I-content
+night	I-content
+
+rines	B-core_product_type
+volkswagen	B-modifier
+
+chair	B-core_product_type
+covers	I-core_product_type
+for	B-modifier
+office	I-modifier
+chairs	I-modifier
+without	I-modifier
+arms	I-modifier
+
+cute	B-modifier
+little	B-shape
+stuffed	B-core_product_type
+animals	I-core_product_type
+
+stand	B-core_product_type
+mixer	I-core_product_type
+
+hand	B-core_product_type
+dryers	I-core_product_type
+for	B-modifier
+bathrooms	I-modifier
+
+pressure	B-core_product_type
+washer	I-core_product_type
+
+gundam	B-core_product_type
+action	I-core_product_type
+figures	I-core_product_type
+
+back	B-core_product_type
+belt	I-core_product_type
+support	I-core_product_type
+for	B-department
+women	I-department
+
+berkshire	B-creator
+sheets	B-core_product_type
+
+natures	B-creator
+bounty	I-creator
+probiotics	B-core_product_type
+100	B-modifier
+million	I-modifier
+
+neutrogena	B-creator
+benzoyl	B-material
+peroxide	I-material
+cleanser	B-core_product_type
+
+cute	B-modifier
+backpacks	B-core_product_type
+for	B-department
+teen	I-department
+girls	I-department
+with	B-modifier
+usb	I-modifier
+port	I-modifier
+and	I-modifier
+pencile	I-modifier
+case	I-modifier
+
+bike	B-core_product_type
+rack	I-core_product_type
+for	B-modifier
+rav	I-modifier
+4	I-modifier
+
+burr	B-core_product_type
+coffee	I-core_product_type
+grinder	I-core_product_type
+
+womens	B-department
+comfy	B-modifier
+shorts	B-core_product_type
+
+office	B-modifier
+decore	B-core_product_type
+for	B-modifier
+walls	I-modifier
+teamwork	B-content
+
+cuff	B-shape
+bracelets	B-core_product_type
+sterling	B-material
+silver	I-material
+
+coffee	B-core_product_type
+maker	I-core_product_type
+
+track	O
+teturn	O
+
+large	B-UoM
+kites	B-core_product_type
+for	B-department
+adults	I-department
+
+torch	B-core_product_type
+lighter	I-core_product_type
+
+bears	B-content
+shirts	B-core_product_type
+long	B-shape
+sleeve	I-shape
+kids	B-department
+
+honeybush	B-material
+tea	B-core_product_type
+
+mens	B-department
+golf	B-modifier
+belt	B-core_product_type
+
+olympus	B-creator
+digital	B-modifier
+camera	I-modifier
+usb	B-core_product_type
+cord	I-core_product_type
+
+kids	B-department
+ergonomic	B-creator
+backpack	B-core_product_type
+
+bags	B-core_product_type
+for	B-department
+women	I-department
+crossbody	B-modifier
+
+40	B-UoM
+gallon	I-UoM
+tank	B-core_product_type
+
+ralph	B-creator
+lauren	I-creator
+bedding	B-core_product_type
+king	B-UoM
+size	I-UoM
+comforter	B-modifier
+set	B-core_product_type
+
+intel	B-creator
+i5	B-modifier
+cpu	I-modifier
+laptop	I-modifier
+solid	I-modifier
+state	I-modifier
+hardrive	B-core_product_type
+
+nike	B-creator
+sweatshirts	B-core_product_type
+
+golf	B-core_product_type
+ball	I-core_product_type
+marker	I-core_product_type
+
+led	B-modifier
+waterproof	I-modifier
+trailer	B-core_product_type
+lights	I-core_product_type
+
+wall	B-modifier
+clock	B-core_product_type
+silver	B-color
+
+texture	B-core_product_type
+spray	I-core_product_type
+
+washer	B-modifier
+water	B-core_product_type
+inlet	I-core_product_type
+valve	I-core_product_type
+
+mossy	B-product_name
+oak	I-product_name
+crocks	B-creator
+
+chocolate	O
+butter	O
+creams	O
+
+pinewood	B-creator
+derby	B-product_name
+wheels	B-core_product_type
+
+heartland	B-creator
+gluten	B-modifier
+free	I-modifier
+pasta	B-core_product_type
+
+ruffle	B-shape
+hem	I-shape
+dress	B-core_product_type
+
+privacy	B-core_product_type
+screen	I-core_product_type
+iphone	B-product_name
+xr	I-product_name
+
+msi	B-creator
+meg	B-product_name
+x570	I-product_name
+godlike	I-product_name
+
+5x8	B-UoM
+area	I-UoM
+rug	B-core_product_type
+low	I-core_product_type
+pile	I-core_product_type
+
+cordless	B-modifier
+earbuds	B-core_product_type
+for	O
+iphone	B-product_name
+
+4	B-UoM
+inch	I-UoM
+tall	B-shape
+under	B-modifier
+bed	I-modifier
+storage	B-core_product_type
+
+bath	B-modifier
+cup	B-core_product_type
+dispenser	I-core_product_type
+
+liquid	B-core_product_type
+protein	I-core_product_type
+
+octonauts	B-content
+toys	B-core_product_type
+
+womens	B-department
+black	B-color
+and	O
+white	B-color
+nike	B-creator
+shoes	B-core_product_type
+
+max	B-creator
+dickmann	I-creator
+
+50	B-occasion
+birthday	B-occasion
+tiara	B-core_product_type
+sash	I-core_product_type
+
+portable	B-core_product_type
+counter	I-core_product_type
+top	I-core_product_type
+burner	I-core_product_type
+
+personalized	B-modifier
+entry	I-modifier
+way	I-modifier
+decor	B-core_product_type
+
+pushing	B-content
+patrick	I-content
+
+rompers	B-core_product_type
+for	B-department
+toddlers	I-department
+girls	I-department
+
+autism:	B-content
+nightmare	I-content
+without	I-content
+end	I-content
+
+white	B-color
+cheeky	B-modifier
+panties	B-core_product_type
+
+best	O
+fat	B-modifier
+burning	I-modifier
+cream	B-core_product_type
+for	B-modifier
+belly	I-modifier
+
+purse	B-modifier
+racks	B-core_product_type
+
+costumes	B-core_product_type
+for	B-department
+women	I-department
+sexy	B-modifier
+
+waterproof	B-modifier
+shoes	B-core_product_type
+nike	B-creator
+
+athlon	B-creator
+talos	B-product_name
+3-12x40	B-UoM
+
+macroband	B-creator
+sanitizing	B-core_product_type
+spray	I-core_product_type
+
+american	B-creator
+girl	I-creator
+doll	B-core_product_type
+samantha	B-product_name
+
+first	B-core_product_type
+period	I-core_product_type
+kit	I-core_product_type
+for	B-department
+girls	I-department
+
+home	B-modifier
+light	I-modifier
+chain	B-core_product_type
+saw	I-core_product_type
+sharpner	I-core_product_type
+
+viva	B-creator
+naturals	I-creator
+organic	B-modifier
+extra	B-modifier
+virgin	I-modifier
+coconut	B-core_product_type
+oil	I-core_product_type
+
+wood	B-material
+steamer	B-core_product_type
+
+condolence	B-occasion
+gift	B-core_product_type
+
+1/32	B-UoM
+violin	B-core_product_type
+
+kids	B-department
+electric	B-modifier
+toothbrush	B-core_product_type
+seago	B-creator
+
+shedding	B-modifier
+vacuum	B-core_product_type
+
+ladies	B-department
+pajama	B-core_product_type
+shorts	I-core_product_type
+bermuda	B-creator
+
+hershey	B-product_name
+candy	B-core_product_type
+bulk	I-core_product_type
+
+clear	B-product_name
+radar	I-product_name
+seed	B-creator
+eraser	B-core_product_type
+
+running	B-core_product_type
+pants	I-core_product_type
+women	B-department
+
+dragon	B-content
+masters	I-content
+pern	I-content
+
+wood	B-material
+stove	B-core_product_type
+insert	I-core_product_type
+
