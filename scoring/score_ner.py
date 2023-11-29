@@ -43,17 +43,18 @@ def convert_conll(example):
 
 def convert_to_bio():
     parser = ArgumentParser()
-    parser.add_argument("input", help="Json output with true output labels and model predictions.")
+    parser.add_argument("input", help="Json lines output with true output labels and model predictions.")
     args = parser.parse_args()
 
-    with open(args.input, 'r', encoding='utf8') as f:
-       data_list = json.load(f)
     true_labels = []
     pred_labels = []
-    for example in data_list:
-        trues, preds = convert_conll(example)
-        true_labels.append(trues)
-        pred_labels.append(preds)
+    
+    with open(args.input, 'r', encoding='utf8') as f:
+        for line in f:
+            example = json.loads(line)
+            trues, preds = convert_conll(example)
+            true_labels.append(trues)
+            pred_labels.append(preds)
 
     print(classification_report(true_labels, pred_labels, scheme=IOB2))
 
