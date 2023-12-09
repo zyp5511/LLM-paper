@@ -25,6 +25,7 @@ def train_gpt2():
     model_args.num_train_epochs = args.epochs
     model_args.dataset_type = "simple"
     model_args.mlm = False  # mlm must be False for CLM
+    model_args.save_steps = -1
 
     train_file = args.train_path
     test_file = args.eval_path
