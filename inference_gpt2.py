@@ -2,6 +2,7 @@ import json
 from argparse import ArgumentParser
 
 from simpletransformers.language_generation import LanguageGenerationModel
+from tqdm import tqdm
 
 
 def run_inference():
@@ -15,7 +16,7 @@ def run_inference():
     model = LanguageGenerationModel("gpt2", args.model)
 
     with open(args.evalpath, 'r', encoding='utf8') as infile, open(args.outpath, 'w', encoding='utf8') as out:
-        for line in infile:
+        for line in tqdm(infile):
             example = json.loads(line)
             sys_out = model.generate(prompt=example['input'])
             example['model_output'] = sys_out
