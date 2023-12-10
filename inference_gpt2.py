@@ -18,8 +18,8 @@ def run_inference():
     with open(args.evalpath, 'r', encoding='utf8') as infile, open(args.outpath, 'w', encoding='utf8') as out:
         for line in tqdm(infile):
             example = json.loads(line)
-            sys_out = model.generate(prompt=example['input'])
-            example['model_output'] = sys_out
+            sys_out = model.generate(prompt=example['input'], args={"max_length": 128})
+            example['model_output'] = sys_out[1].replace("output:", "")
             print(json.dumps(example), file=out)
 
 
