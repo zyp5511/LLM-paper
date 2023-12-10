@@ -20,7 +20,7 @@ def run_inference():
         for line in tqdm(infile):
             example = json.loads(line)
             prompt = example['input'] + "<SEP>"
-            sys_out = model.generate(prompt=prompt, args={"max_length": 128})
+            sys_out = model.generate(prompt=prompt, args={"max_length": 128, "stop_token": "<|endoftext|>"})
 
             example['model_output'] = sys_out[0].replace(prompt, "")
             print(json.dumps(example), file=out)
