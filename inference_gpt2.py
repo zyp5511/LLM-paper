@@ -22,8 +22,9 @@ def run_inference():
         for line in tqdm(infile):
             example = json.loads(line)
             sys_out = model.generate(prompt=example['input'], args={"max_length": 128})
-            match = OUTPUT_PATTERN.search(sys_out[0])
-            example['model_output'] = match.group(1)
+            # match = OUTPUT_PATTERN.search(sys_out[0])
+            # example['model_output'] = match.group(1)
+            example['model_output'] = sys_out[0].replace(example['input'], "").replace("output: ", "")
             print(json.dumps(example), file=out)
 
 
