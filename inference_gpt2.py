@@ -21,11 +21,11 @@ def run_inference():
     with open(args.evalpath, 'r', encoding='utf8') as infile, open(args.outpath, 'w', encoding='utf8') as out:
         for line in tqdm(infile):
             example = json.loads(line)
-            prompt = example['input']
+            prompt = example['input'] + "<SEP>"
             sys_out = model.generate(prompt=prompt, args={"max_length": 128})
             # match = OUTPUT_PATTERN.search(sys_out[0])
             # example['model_output'] = match.group(1)
-            prompt_replacement = f'"{prompt}"'
+            prompt_replacement = f'{prompt}", '
             example['model_output'] = sys_out[0].replace(prompt_replacement, "").replace('"output: "', "")
             print(json.dumps(example), file=out)
 
