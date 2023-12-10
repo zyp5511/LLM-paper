@@ -1,8 +1,11 @@
 import json
+import re
 from argparse import ArgumentParser
 
 from simpletransformers.language_generation import LanguageGenerationModel
 from tqdm import tqdm
+
+OUTPUT_PATTERN = re.compile(r'\"output\":(.*)')
 
 
 def run_inference():
@@ -19,7 +22,8 @@ def run_inference():
         for line in tqdm(infile):
             example = json.loads(line)
             sys_out = model.generate(prompt=example['input'], args={"max_length": 128})
-            example['model_output'] = sys_out[0]
+            match = OUTPUT_PATTERN.search(sys_out[0])
+            example['model_output'] = match.group(1)
             print(json.dumps(example), file=out)
 
 
