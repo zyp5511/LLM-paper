@@ -6,6 +6,7 @@ The tasks are following:
 * Product title NER
 * Description generation based on product title
 * Products review summarization
+
 We have different baselines for each task: BERT for classification, BERT for NER, GPT2/BART/T5 for description generation, BART/T5 for summarization.
 
 The questions we want to explore:
