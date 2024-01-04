@@ -3,7 +3,7 @@
 In this repo we will fine-tune llama2-7B on four different e-commerce tasks using LoRA. 
 The tasks are following:
 * Product Classification
-* NER based on product title 
+* Product title NER
 * Description generation based on product title
 * Products review summarization
 We have different baselines for each task: BERT for classification, BERT for NER, GPT2/BART/T5 for description generation, BART/T5 for summarization.
