@@ -2,4 +2,6 @@ fig
 .DS_Store
 .DS_Store?
 wandb
-
+outputs
+AmaSum
+datasets/AmaSum.tgz
