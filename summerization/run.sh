@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0 python ./summerization/run_summerirization.py \
+CUDA_VISIBLE_DEVICES=0 python ./summerization/summerirization.py \
     --model_name_or_path t5-base \
     --text_column inputs \
     --summary_column target \
@@ -8,7 +8,7 @@ CUDA_VISIBLE_DEVICES=0 python ./summerization/run_summerirization.py \
     --per_device_train_batch_size=4 \
     --per_device_eval_batch_size=16 \
     --output_dir ./outputs/verdict \
-    --do_train \
+    //--do_train \
     --do_predict \
     --predict_with_generate \
     --source_prefix "summarize: "

@@ -5,3 +5,7 @@ wandb
 outputs
 AmaSum
 datasets/AmaSum.tgz
+datasets/description_generation
+datasets/description_generation.py
+datasets/title-description-amazon-products.jsonl
+datasets/title-description-amazon-products.jsonl.gz
