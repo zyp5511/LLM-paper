@@ -56,7 +56,7 @@ def convert_to_bio():
             true_labels.append(trues)
             pred_labels.append(preds)
 
-    print(classification_report(true_labels, pred_labels, scheme=IOB2))
+    print(classification_report(true_labels, pred_labels, scheme=IOB2, digits=4))
 
 
 if __name__ == "__main__":
